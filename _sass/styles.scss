@@ -2,9 +2,10 @@
 // Option B: Include parts of Bootstrap
 
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
-// @import "../node_modules/bootstrap/scss/functions";
+// @import "../node_modules/bootstrap/scss/ ";
 
 // 2. Include any default variable overrides here
+@import "variables";
 
 // 3. Include remainder of required Bootstrap stylesheets
 // @import "../node_modules/bootstrap/scss/variables";
@@ -20,5 +21,8 @@
 
 // 5. Add additional custom code here
 
-// @import  "variables";
-// @import  "bootstrap";
+@import "bootstrap/scss/bootstrap";
+
+.site-header {
+	border-top: none;
+}
