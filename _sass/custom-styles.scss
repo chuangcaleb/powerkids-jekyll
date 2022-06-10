@@ -1,0 +1,6 @@
+.overlay {
+	transition-duration: 1s;
+	&:hover {
+		opacity: 0.4;
+	}
+}

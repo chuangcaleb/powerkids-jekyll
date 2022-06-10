@@ -1,4 +1,4 @@
-<header class="site-header mb-3 sticky-top" role="banner">
+<header class="site-header mb-3" role="banner">
   
   <nav class="navbar navbar-expand-lg navbar-light bg-white">
 
@@ -7,19 +7,22 @@
 
     <div class="container-md">
 
-      <a class="navbar-brand" rel="author" href="{{ "/" | relative_url }}">
-        <a class="navbar-brand" href="/">
-          <img src="/assets/images/logos/logo.jpeg" alt="Logo" style="width:80px;">
-        </a>
+      <a class="navbar-brand" href="{{ "/" | relative_url }}">
+        <img 
+          src="/assets/images/logos/logo.jpeg" 
+          alt="LOGO" 
+          style="width:80px;"
+          class="overlay"
+        >
       </a>
 
       <button 
         class="navbar-toggler" 
         type="button" 
         data-bs-toggle="collapse" 
-        data-bs-target="#navbarSupportedContent" 
-        aria-controls="navbarSupportedContent" 
-        aria-expanded="false" 
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
         aria-label="Toggle navigation"
       >
         <span class="navbar-toggler-icon"></span>
@@ -49,3 +52,4 @@
   </nav>
 
 </header>
+
