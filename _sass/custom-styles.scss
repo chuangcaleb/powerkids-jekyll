@@ -4,3 +4,8 @@
 		opacity: 0.4;
 	}
 }
+.active-nav,
+.active-nav:hover {
+	text-decoration: underline;
+	text-underline-offset: 5px;
+}
