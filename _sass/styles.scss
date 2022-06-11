@@ -5,7 +5,7 @@
 // @import "../node_modules/bootstrap/scss/ ";
 
 // 2. Include any default variable overrides here
-@import "variables";
+// @import "variables";
 
 // 3. Include remainder of required Bootstrap stylesheets
 // @import "../node_modules/bootstrap/scss/variables";
@@ -18,9 +18,9 @@
 // @import "../node_modules/bootstrap/scss/images";
 // @import "../node_modules/bootstrap/scss/containers";
 // @import "../node_modules/bootstrap/scss/grid";
-@import "bootstrap/scss/bootstrap";
+// @import "bootstrap/scss/bootstrap";
 
 // 5. Add additional custom code here
 @import "override-minima";
-@import "fix-bootstrap";
+// @import "fix-bootstrap";
 @import "custom-styles";
