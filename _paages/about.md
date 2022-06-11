@@ -1,16 +1,10 @@
 ---
-layout: general/page
+layout: page
 title: About
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<b>{% include powerkids.html %}</b> was founded in 2001, based on the Fungates curriculum. We empower your little child’s early education by injecting play and care to stimulate your little one’s learning.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Guided by educational policies from Ministry of Education Malaysia and Jabatan Kebajikan Malaysia, we constantly keep up with best practices to ensure our students become competent learners to navigate the 21st-century world.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-[jekyll-organization]: https://github.com/jekyll
+PowerKids … Opening the Gates to First-class Fun Learning!

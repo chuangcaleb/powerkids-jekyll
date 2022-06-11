@@ -1,5 +1,5 @@
 ---
-layout: general/page
+layout: page
 title: Programs
 ---
 
