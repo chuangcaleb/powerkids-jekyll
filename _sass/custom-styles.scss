@@ -4,8 +4,15 @@
 		opacity: 0.4;
 	}
 }
-.active-nav,
-.active-nav:hover {
+
+a.nav-link {
+	color: black;
+	&:hover {
+		text-decoration: none;
+	}
+}
+a.active-nav,
+a.active-nav:hover {
 	text-decoration: underline;
 	text-underline-offset: 5px;
 }
