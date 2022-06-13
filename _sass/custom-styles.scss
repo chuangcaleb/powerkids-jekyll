@@ -14,7 +14,8 @@ a.nav-link {
 }
 
 a.active-nav,
-a.active-nav:hover {
+a.active-nav:hover,
+.underline {
 	text-decoration: underline;
 	text-underline-offset: 5px;
 }
