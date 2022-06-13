@@ -19,7 +19,7 @@ title: About
 </div>
 
 <div class="container px-4 py-4 col-md-7" id="icon-grid">
-  <div class="row row-cols-1 row-cols-sm-2 g-4 py-4">
+  <div class="row row-cols-1 row-cols-sm-2 g-5 py-4">
     <div class="col d-flex align-items-start">
       <i class="bi-award text-muted flex-shrink-0 me-3 display-6"></i>
       <div>
