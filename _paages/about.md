@@ -3,7 +3,7 @@ layout: default
 title: About
 ---
 
-{% assign about_dir = "/assets/images/about" %}
+{% assign about_dir = "/assets/images/about" | relative_url %}
 
 <div class="p-4 mb-4 rounded-3 bg-light">
     <div class="container-fluid py-3 col-md-7">
