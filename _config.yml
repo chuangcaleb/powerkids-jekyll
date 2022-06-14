@@ -22,7 +22,7 @@ title: PowerKids
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   The official website for PowerKids Kindergarten, situated in the Klang Valley, Malaysia.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/powerkids" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
