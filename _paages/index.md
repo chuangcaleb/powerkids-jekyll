@@ -25,7 +25,7 @@ layout: default
             </p>
         </div>
 
-        <a href="/about">
+        <a href="{{ "/about" | relative_url }}">
             <button class="btn btn-primary btn-lg" type="button">Learn More</button>
         </a>
 
