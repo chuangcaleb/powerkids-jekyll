@@ -7,6 +7,7 @@ title: About
 
 <div class="p-4 mb-4 rounded-3 bg-light">
     <div class="container-fluid py-3 col-md-7">
+        <h1 class="display-5 text-center mb-4">About</h1>
         <div class="mb-4">
             <p class="lead">
                 {% include pk/powerkids.html %}
@@ -129,9 +130,8 @@ title: About
     </div>
 </div>
 
-
 <div class="pt-5 p-md-5 bg-dark text-center">
-	
+
     <div class="card col-md-10 mx-auto">
         <h2 class="card-header display-6 fw-bold lh-1 py-4">Sri Petaling</h2>
         <div class="card-body">
@@ -203,6 +203,5 @@ title: About
         </div>
 
     </div>
-
 
 </div>
