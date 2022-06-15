@@ -3,7 +3,7 @@ layout: default
 title: Schools
 ---
 
-<h1 class="display-5 text-center m-4">Our Five Schools</h1>
+<h1 class="display-5 text-center p-4 mb-0 text-bg-dark">Our Five Schools</h1>
 
 <div class="bg-red p-5 text-white">
     <div class="row g-4 py-1 row-cols-1 row-cols-lg-3">
