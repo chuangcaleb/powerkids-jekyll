@@ -1,37 +1,85 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+<footer class=" p-2 pt-4 p-md-5 bg-light">
 
-  <div class="wrapper container-md">
+    <div class="row row-cols-1 row-cols-md-3 g-4 col-md-8 mx-auto">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+		<div class="col">
 
-    <div class="row">
-      <div class="footer-col col-4">
-        <ul class="list-unstyled contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">
-              {{ site.email }}
-            </a></li>
-            {%- endif -%}
-        </ul>
-      </div>
+			<h3 class="mb-4">Follow Us</h3>
 
-      <div class="footer-col col-4">
-        {%- include social.html -%}
-      </div>
+			<ul class="list-unstyled social-media-list">
 
-      <div class="footer-col col-4">
-        <p>{{- site.description | escape -}}</p>
-      </div>
-    </div>
+				<li>
+					<a href="https://www.facebook.com/powerkidspage"  target="_blank" rel="noopener noreferrer">
+						<i class="bi-facebook text-muted flex-shrink-0 me-2"></i>PowerKids Preschool
+					</a>
+				</li>
+	
+				<li>
+					<a href="https://www.youtube.com/channel/UCOjK8A2hTRbh1jg3hPE7uCw"  target="_blank" rel="noopener noreferrer">
+						<i class="bi-youtube text-muted flex-shrink-0 me-2"></i>PowerKids
+					</a>
+				</li>
+	
+				<li>
+					<a href="https://www.instagram.com/powerkids_2001/"  target="_blank" rel="noopener noreferrer">
+						<i class="bi-instagram text-muted flex-shrink-0 me-2"></i>powerkids_2001
+					</a>
+				</li>
 
-  </div>
+			</ul>
+
+
+		</div>
+
+		<div class="col">
+			<h3 class="mb-4">Our Office Hours</h3>
+			<ul class="list-unstyled hours-list">
+				<li>8:30 am – 5:00 pm</li>
+				<li>(Monday to Friday)</li>
+			</p>
+		</div>
+
+		<div class="col">
+			<h3 class="mb-4">Contact Us</h3>
+			<ul class="list-unstyled email-list">
+				<li>
+					<i class="bi-envelope text-muted flex-shrink-0 me-2"></i>
+					<a href="mailto:powerkidschool@gmail.com">
+						powerkidschool@gmail.com
+					</a>
+
+				</li>
+			</ul>
+			<ul class="list-unstyled phone-list">
+				<li>
+					<i class="bi-telephone text-muted flex-shrink-0 me-2"></i>
+					<a href="tel:+60390592979">
+						03 ‎  - 9059 2979
+					</a>
+				</li>
+				<li>
+					<i class="bi-telephone text-muted flex-shrink-0 me-2"></i>
+					<a href="tel:+60102212482">
+						010 - 221 2482
+					</a>
+				</li>
+				<li>
+					<i class="bi-telephone text-muted flex-shrink-0 me-2"></i>
+					<a href="tel:+60390564288">
+						03 ‎  - 9056 4288
+					</a>
+				</li>
+				<li>
+					<i class="bi-telephone text-muted flex-shrink-0 me-2"></i>
+					<a href="tel:+0102212483">
+						010 - 221 2483
+					</a>
+				</li>
+			</ul>
+			
+		</div>
+
+	</div>
 
 </footer>
+
