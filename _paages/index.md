@@ -3,7 +3,7 @@ layout: default
 title: HOME
 ---
 
-{% include home-carousel.html %}
+{% include pk/home-carousel.html %}
 
 <div class="p-4 mb-4 rounded-3">
     <div class="container-fluid col-md-7 py-3">
