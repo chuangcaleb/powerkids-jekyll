@@ -284,6 +284,8 @@ ul.navbar-nav { margin-left: 1em; }
 
 .navbar .navbar-collapse { flex-grow: initial; }
 
+.list-unstyled { margin-left: 0px; }
+
 .overlay { transition-duration: 1s; }
 
 .overlay:hover { opacity: 0.4; cursor: pointer; }
@@ -301,5 +303,7 @@ a.active-nav, a.active-nav:hover, .underline { text-decoration: underline; text-
 .bg-red { background-color: #ff7c7c; }
 
 .bg-blue { background-color: #7c7cff; }
+
+.bg-yellow { background-color: #ffff7c; }
 
 /*# sourceMappingURL=main.css.map */
