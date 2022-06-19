@@ -276,7 +276,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .site-header { border-top: none; }
 
-.nav-link { text-transform: uppercase; }
+a.nav-link { text-transform: uppercase; display: inline; }
 
 .page-content { padding-top: 0px; padding-bottom: 0px; }
 
@@ -305,5 +305,15 @@ a.active-nav, a.active-nav:hover, .underline { text-decoration: underline; text-
 .bg-blue { background-color: #7c7cff; }
 
 .bg-yellow { background-color: #ffff7c; }
+
+.color-facebook { color: #1877f2; }
+
+.color-youtube { color: #ff0000; }
+
+.color-instagram { color: #e4405f; }
+
+.color-mail { color: #005ff9; }
+
+.color-phone { color: #25d366; }
 
 /*# sourceMappingURL=main.css.map */
