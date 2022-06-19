@@ -5,7 +5,7 @@ title: HOME
 
 {% include pk/home-carousel.html %}
 
-<div class="p-md-4 mb-4 rounded-3">
+<div class="p-md-4 mb-2 rounded-3">
     <div class="container-fluid col-md-7 py-3">
 
         <h1 class="display-5 fw-bold mb-4">
