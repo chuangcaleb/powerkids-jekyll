@@ -1,10 +1,10 @@
 <footer class=" p-2 pt-4 p-md-5 bg-light">
 
-    <div class="row row-cols-1 row-cols-md-3 g-4 col-md-8 mx-auto">
+    <div class="row row-cols-1 row-cols-md-3 g-4 col-md-10 mx-auto">
 
 		<div class="col">
 
-			<h3 class="mb-4">Follow Us</h3>
+			<h3 class="my-4">Follow Us</h3>
 
 			<ul class="list-unstyled social-media-list">
 
@@ -28,19 +28,14 @@
 
 			</ul>
 
+			<!-- <h3 class="my-4">Our Office Hours</h3> -->
 
 		</div>
 
 		<div class="col">
-			<h3 class="mb-4">Our Office Hours</h3>
-			<ul class="list-unstyled hours-list">
-				<li>8:30 am – 5:00 pm</li>
-				<li>(Monday to Friday)</li>
-			</p>
-		</div>
 
-		<div class="col">
-			<h3 class="mb-4">Contact Us</h3>
+			<h3 class="my-4">Contact Us</h3>
+
 			<ul class="list-unstyled email-list">
 				<li>
 					<i class="bi-envelope text-muted flex-shrink-0 me-2"></i>
@@ -50,6 +45,7 @@
 
 				</li>
 			</ul>
+
 			<ul class="list-unstyled phone-list">
 				<li>
 					<i class="bi-telephone text-muted flex-shrink-0 me-2"></i>
@@ -76,7 +72,42 @@
 					</a>
 				</li>
 			</ul>
-			
+
+			<ul class="list-unstyled hours-list">
+				<li>8:30 am – 5:00 pm</li>
+				<li>(Monday to Friday)</li>
+			</ul>
+
+
+		</div>
+
+		<div class="col">
+
+			<h3 class="my-4">Navigation</h3>
+
+			<ul class="navbar-nav my-2 m-lg-0 col d-flex justify-content-md-between justify-content-lg-center">
+
+				{% assign site_path = page.title | downcase %}
+
+				{%- for link in site.data.nav -%}
+
+					{%- if link == site_path -%}
+					{% assign link_classes = "active-nav" %}
+					{%-else-%}   
+					{% assign link_classes = "" %}
+					{%-endif-%}   
+
+					<li class="nav-item">
+						<a 
+						class="nav-link {{link_classes}}" 
+						href=" {{ link | relative_url }}">
+							{{ link | escape }}
+						</a>
+					</li>
+
+				{%- endfor -%}
+
+			</ul>
 		</div>
 
 	</div>
