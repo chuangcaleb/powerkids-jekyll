@@ -30,6 +30,10 @@ a.active-nav:hover,
 	}
 }
 
+.site-footer .nav-item:first-child .nav-link {
+	padding-top: 0px;
+}
+
 .bg-red {
 	background-color: #ff7c7c;
 }
