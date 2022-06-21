@@ -276,7 +276,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .site-header { border-top: none; }
 
-a.nav-link { text-transform: uppercase; display: inline; }
+a.nav-link { text-transform: uppercase; display: inline-block; }
 
 .page-content { padding-top: 0px; padding-bottom: 0px; }
 
@@ -299,6 +299,8 @@ a.active-nav, a.active-nav:hover, .underline { text-decoration: underline; text-
 #home-carousel .carousel-item img { height: 47vw; }
 
 @media (max-width: 767.98px) { .navbar-brand { margin-left: 1rem; } }
+
+.site-footer .nav-item:first-child .nav-link { padding-top: 0px; }
 
 .bg-red { background-color: #ff7c7c; }
 
