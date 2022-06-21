@@ -10,6 +10,6 @@ jekyll build && \
   cd _site && \
   git add . && \
   git commit -am "$1" && \
-  git push origin master && \
+  git push origin gh-pages && \
   cd .. && \
   echo "Successfully built and pushed to GitHub."
