@@ -1,6 +1,6 @@
 ---
 layout: default
-
+---
 
 {% assign schools_dir = "/assets/images/schools" | relative_url %}
 
@@ -61,7 +61,6 @@ layout: default
         <img src="{{schools_dir}}/k45-edited-wires.jpeg" class="d-block h-100 my-auto" alt="...">
     </div>
 
-
 </div>
 
 <div class="section row g-0">
@@ -118,9 +117,7 @@ layout: default
         <img src="{{schools_dir}}/puchong.jpg" class="d-block h-100 my-auto" alt="...">
     </div>
 
-
 </div>
-
 
 <div class="section row g-0">
 
