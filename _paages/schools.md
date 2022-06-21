@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Schools
----
+
+
 {% assign schools_dir = "/assets/images/schools" | relative_url %}
 
 <h1 class="display-3 text-center p-4 mb-0 text-bg-dark">Our Five Schools</h1>

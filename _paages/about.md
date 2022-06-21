@@ -1,6 +1,5 @@
 ---
 layout: default
-title: About
 ---
 
 <!-- <h1 class="display-3 text-center p-4 mb-0 text-bg-dark">About</h1> -->
