@@ -9,15 +9,15 @@ layout: default
 <div class="p-4 mb-4 rounded-3 bg-light">
     <div class="container-fluid py-3 col-md-7">
         <h1 class="display-3 text-center mb-4">About</h1>
-        <div class="mb-4">
-            <p class="lead">
+        <div class="mb-4 lead">
+            <p>
                 {% include pk/powerkids.html %}
                 was founded in 2001, based on the Fungates curriculum. We empower your little child’s early education by injecting play and care to stimulate your little one’s learning.
             </p>
-            <p class="lead">
+            <p>
                 Guided by educational policies from Ministry of Education Malaysia and Jabatan Kebajikan Malaysia, we constantly keep up with best practices to ensure our students become competent learners to navigate the 21st-Century world.
             </p>
-            <p class="lead">
+            <p>
                 {% include pk/powerkids.html %}... Opening the Gates to First-Class Fun Learning!
             </p>
         </div>
@@ -116,18 +116,17 @@ layout: default
         <div class="col-10 col-sm-8 col-lg-4 mx-auto my-3">
             <img src="{{about_dir}}/21yrs.jpeg" class="d-block w-100" alt="..." style="transform:rotate(10deg)">
         </div>
-        <!-- <div class="col-md mx-auto"></div> -->
     </div>
 </div>
 
 <div class="p-4 bg-primary text-bg-primary text-center">
     <div class="container-fluid py-md-3 col-md-9 g-0">
-        <h2 class="display-3 fw-bold lh-1 my-4">Our Team</h2>
-        <p class="lead">At PowerKids, we have trained, qualified teachers who are passionate and dynamic. Their joy comes from seeing our little learners light up as they make new friends or learn new letters, words or concepts.
+        <h2 class="display-3 fw-bold lh-1 my-4 lead">Our Team</h2>
+        <p>At PowerKids, we have trained, qualified teachers who are passionate and dynamic. Their joy comes from seeing our little learners light up as they make new friends or learn new letters, words or concepts.
         </p>
-        <p class="lead">Every class teacher is qualified in Early Childhood Education and further up-graded with latest FunGates teaching practices on yearly basis. Our teaching team is up-to-date on trainings by KSPK Ministry of Education of Malaysia for guru-guru pra-sekolah.</p>
+        <p>Every class teacher is qualified in Early Childhood Education and further up-graded with latest FunGates teaching practices on yearly basis. Our teaching team is up-to-date on trainings by KSPK Ministry of Education of Malaysia for guru-guru pra-sekolah.</p>
         <br>
-        <p class="lead">“Children’s First” is our basis to all our decisions in managing children entrusted to our care.</p>
+        <p>“Children’s First” is our basis to all our decisions in managing children entrusted to our care.</p>
     </div>
 </div>
 
