@@ -1,0 +1,21 @@
+headers:
+  - Description
+  - Frequency
+  - Payment Due Date
+rows:
+  - row:
+      - After School Program
+      - Monthly
+      - 1st of every month
+  - row:
+      - Daycare Deposit
+      - Once
+      - On registration
+  - row:
+      - Daycare Fees
+      - Monthly
+      - 1st of every month
+  - row:
+      - Sleeping Bag
+      - Once
+      - Upon purchase
