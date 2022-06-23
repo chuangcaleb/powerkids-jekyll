@@ -57,7 +57,7 @@ layout: default
         </div>
     </div>
 
-    <div class="school-picture col-md d-flex p-0 order-last order-md-first">
+    <div class="school-picture col-md col-xxl-auto d-flex p-0 order-last order-md-first">
         <img src="{{schools_dir}}/k45-edited-wires.jpeg" class="d-block h-100 my-auto" alt="...">
     </div>
 
@@ -113,7 +113,7 @@ layout: default
         </div>
     </div>
 
-    <div class="school-picture col-md d-flex p-0 order-last order-md-first">
+    <div class="school-picture col-md col-xxl-auto d-flex p-0 order-last order-md-first">
         <img src="{{schools_dir}}/puchong.jpg" class="d-block h-100 my-auto" alt="...">
     </div>
 
