@@ -64,3 +64,39 @@ a.active-nav:hover,
 .color-phone {
 	color: #25d366;
 }
+
+// .mission-vision-divider {
+// 	width: 0;
+// 	height: 0;
+// 	border-style: solid;
+// 	border-width: 0 0 7vw 97vw;
+// 	border-color: transparent transparent white rgb(33, 37, 41);
+// }
+
+// .our-team-divider {
+// 	width: 0;
+// 	height: 0;
+// 	border-style: solid;
+// 	border-width: 8vw 49vw 0 48vw;
+// 	border-color: rgb(13, 110, 253) rgb(33, 37, 41) rgb(13, 110, 253)
+// 		rgb(33, 37, 41);
+// }
+
+.our-team-divider {
+	position: relative;
+	height: 50px;
+	background-color: rgb(33, 37, 41);
+}
+
+.our-team-divider::before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 50px 150px 0 150px;
+	border-color: rgb(13, 110, 253) transparent transparent transparent;
+	left: 50%;
+	transform: translateX(-50%) translateY(0%);
+}

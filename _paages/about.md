@@ -35,7 +35,6 @@ layout: default
         </div>
         <div class="col d-flex align-items-start">
             <i class="bi-balloon-heart text-muted flex-shrink-0 me-3 display-6"></i>
-            <!-- <i class="bi-emoji-laughing text-muted flex-shrink-0 me-3 display-6"></i> -->
             <div>
                 <h4 class="fw-bold mb-0">Emotional Well-Being</h4>
                 <p>Caring beyond academics.</p>
@@ -97,6 +96,8 @@ layout: default
     </div>
 </div>
 
+<div class="mission-vision-divider"></div>
+
 <div class="row justify-content-md-center py-5 mx-0">
     <div class="col-md-10 row align-items-between mx-0">
         <div class="col-lg-6 d-flex flex-column my-auto">
@@ -119,7 +120,7 @@ layout: default
     </div>
 </div>
 
-<div class="p-4 bg-primary text-bg-primary text-center">
+<div class="our-team p-4 bg-primary text-bg-primary text-center">
     <div class="container-fluid py-md-3 col-md-9 g-0">
         <h2 class="display-3 fw-bold lh-1 my-4">Our Team</h2>
         <div class="our-team-body lead">
@@ -131,6 +132,8 @@ layout: default
         </div>
     </div>
 </div>
+
+<div class="our-team-divider"></div>
 
 <div class="pt-5 p-md-5 bg-dark text-center">
 
