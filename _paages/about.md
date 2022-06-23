@@ -6,7 +6,7 @@ layout: default
 
 {% assign about_dir = "/assets/images/about" | relative_url %}
 
-<div class="p-4 mb-4 rounded-3 bg-light">
+<div class="p-4 mb-4 bg-light">
     <div class="container-fluid py-3 col-md-7">
         <h1 class="display-3 text-center mb-4">About</h1>
         <div class="mb-4 lead">
@@ -87,12 +87,12 @@ layout: default
         </div>
         <div class="col-md mx-auto"></div>
         <div class="col-lg-5 d-flex align-items-center flex-column my-auto">
-            <div class="text-center text-white mb-3">
-                <h2 class="display-3 fw-bold lh-1 my-4">Our Vision</h2>
+            <div class="text-center text-white">
+                <h2 class="display-3 fw-bold my-4">Our Vision</h2>
                 <p class="lead fs-3">To raise a new generation of 21st-Century Children with
                     <span class="underline">heart</span>.</p>
+                <button class="btn btn-primary btn-lg px-4 m-4 me-md-2" type="button">Our Community Service</button>
             </div>
-            <button class="btn btn-primary btn-lg px-4 me-md-2" type="button">Our Community Service</button>
         </div>
     </div>
 </div>
@@ -100,15 +100,15 @@ layout: default
 <div class="row justify-content-md-center py-5 mx-0">
     <div class="col-md-10 row align-items-between mx-0">
         <div class="col-lg-6 d-flex flex-column my-auto">
-            <div class="d-flex align-items-center flex-column mb-3">
-                <h2 class="display-3 fw-bold lh-1 my-4">Our Mission</h2>
-                <div class="lead fs-3">
+            <div class="d-flex align-items-start flex-column mb-3 mx-auto">
+                <h2 class="display-3 fw-bold my-4 mx-auto mx-md-0">Our Mission</h2>
+                <div class="lead fs-3 mx-3 mx-md-0">
                     <p>
-                        <span class="display-4" style="color:red">A</span>cademic Excellence</p>
+                        <span class="display-4 me-1" style="color:red">A</span>cademic Excellence</p>
                     <p>
-                        <span class="display-4" style="color:blue">B</span>uilding Character</p>
+                        <span class="display-4 me-1" style="color:blue">B</span>uilding Character</p>
                     <p>
-                        <span class="display-4" style="color:darkgoldenrod">C</span>ultivating Moral & Spiritual Values</p>
+                        <span class="display-4 me-1" style="color:darkgoldenrod">C</span>ultivating Moral & Spiritual Values</p>
                 </div>
             </div>
         </div>
