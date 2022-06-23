@@ -36,7 +36,7 @@ layout: default
 </div>
 
 
-<div class="container-md py-3 table-responsive">
+<div class="container-md py-4 table-responsive">
     <h2 class="display-4">Fees Structure</h2>
     <table class="align-middle">
         <thead>
@@ -64,7 +64,7 @@ layout: default
 </div>
 
 
-<div class="container-md py-3 table-responsive">
+<div class="container-md py-4 table-responsive">
     <h2 class="display-4">Optional</h2>
     <table class="align-middle">
         <thead>
