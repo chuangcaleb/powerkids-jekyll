@@ -121,12 +121,14 @@ layout: default
 
 <div class="p-4 bg-primary text-bg-primary text-center">
     <div class="container-fluid py-md-3 col-md-9 g-0">
-        <h2 class="display-3 fw-bold lh-1 my-4 lead">Our Team</h2>
-        <p>At PowerKids, we have trained, qualified teachers who are passionate and dynamic. Their joy comes from seeing our little learners light up as they make new friends or learn new letters, words or concepts.
-        </p>
-        <p>Every class teacher is qualified in Early Childhood Education and further up-graded with latest FunGates teaching practices on yearly basis. Our teaching team is up-to-date on trainings by KSPK Ministry of Education of Malaysia for guru-guru pra-sekolah.</p>
-        <br>
-        <p>“Children’s First” is our basis to all our decisions in managing children entrusted to our care.</p>
+        <h2 class="display-3 fw-bold lh-1 my-4">Our Team</h2>
+        <div class="our-team-body lead">
+            <p>At PowerKids, we have trained, qualified teachers who are passionate and dynamic. Their joy comes from seeing our little learners light up as they make new friends or learn new letters, words or concepts.
+            </p>
+            <p>Every class teacher is qualified in Early Childhood Education and further up-graded with latest FunGates teaching practices on yearly basis. Our teaching team is up-to-date on trainings by KSPK Ministry of Education of Malaysia for guru-guru pra-sekolah.</p>
+            <br>
+            <p>“Children’s First” is our basis to all our decisions in managing children entrusted to our care.</p>
+        </div>
     </div>
 </div>
 
