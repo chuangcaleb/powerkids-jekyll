@@ -318,4 +318,8 @@ a.active-nav, a.active-nav:hover, .underline { text-decoration: underline; text-
 
 .color-phone { color: #25d366; }
 
+.our-team-divider { position: relative; height: 50px; background-color: #212529; }
+
+.our-team-divider::before { content: ""; position: absolute; bottom: 0; width: 0; height: 0; border-style: solid; border-width: 50px 150px 0 150px; border-color: #0d6efd transparent transparent transparent; left: 50%; transform: translateX(-50%) translateY(0%); }
+
 /*# sourceMappingURL=main.css.map */
