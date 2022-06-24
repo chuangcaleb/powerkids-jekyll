@@ -76,7 +76,7 @@ layout: default
 								<h2 class="card-title">Online School</h2>
 								<p class="card-text"><em>Schooling Hours</em></p>
 								<p class="card-text">Learning should not stop in spite of a pandemic. We are able to deliver engaging teaching over the internet.</p>
-									<!-- <a href="#" class="stretched-link"></a> -->
+									<a href="/programs/online" class="stretched-link"></a>
 							</div>
 						</div>
 					</div>
