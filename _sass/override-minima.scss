@@ -5,6 +5,10 @@
 a.nav-link {
 	text-transform: uppercase;
 	display: inline-block;
+	color: black;
+	&:hover {
+		text-decoration: none;
+	}
 }
 
 .page-content {

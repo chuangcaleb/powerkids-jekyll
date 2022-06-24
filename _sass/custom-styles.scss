@@ -1,3 +1,6 @@
+@import "colors";
+
+// Faded overlay on hover
 .overlay {
 	transition-duration: 1s;
 	&:hover {
@@ -6,13 +9,7 @@
 	}
 }
 
-a.nav-link {
-	color: black;
-	&:hover {
-		text-decoration: none;
-	}
-}
-
+// Current nav item -> Underline
 a.active-nav,
 a.active-nav:hover,
 .underline {
@@ -20,49 +17,21 @@ a.active-nav:hover,
 	text-underline-offset: 5px;
 }
 
+// Carousel height
 #home-carousel .carousel-item img {
 	height: 47vw;
 }
 
+// Small dev -> small logo .ml
 @media (max-width: 767.98px) {
 	.navbar-brand {
 		margin-left: 1rem;
 	}
 }
 
+// Footer, first nav-item -> remove padding-top
 .site-footer .nav-item:first-child .nav-link {
 	padding-top: 0px;
-}
-
-.bg-red {
-	background-color: #ff7c7c;
-}
-.bg-blue {
-	background-color: #7c7cff;
-}
-
-.bg-yellow {
-	background-color: #ffff7c;
-}
-
-.color-facebook {
-	color: #1877f2;
-}
-
-.color-youtube {
-	color: #ff0000;
-}
-
-.color-instagram {
-	color: #e4405f;
-}
-
-.color-mail {
-	color: #005ff9;
-}
-
-.color-phone {
-	color: #25d366;
 }
 
 // .mission-vision-divider {
