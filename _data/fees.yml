@@ -1,30 +1,30 @@
 headers:
-  - Description
-  - Frequency
-  - Payment Due Date
+    - Description
+    - Frequency
+    - Payment Due Date
 rows:
-  - row:
-      - Registration Fees
-      - Once in the whole duration with Powerkids
-      - On registration
-  - row:
-      - Deposit
-      - Once
-      - On registration
-  - row:
-      - School Fees
-      - Monthly
-      - 1st of every month
-  - row:
-      - Books, Apparatus, Development/Insurance
-      - Once a year
-      - On registration
-  - row:
-      - Homework Pouch, Uniform, Apron, Book Bag
-      - Once; replacement as needed
-      - On registration
-  - row:
-      - Term Fees
-      - Twice a year
-      - "1st Term on registration<br>
-        2nd Term by 30 June"
+    - row:
+          - Registration Fees
+          - Once for the whole duration with PowerKids
+          - On registration
+    - row:
+          - Deposit
+          - Once
+          - On registration
+    - row:
+          - School Fees
+          - Monthly
+          - 1st of every month
+    - row:
+          - Books, Apparatus, Development/Insurance
+          - Once a year
+          - On registration
+    - row:
+          - Homework Pouch, Uniform, Apron, Book Bag
+          - Once; replacement as needed
+          - On registration
+    - row:
+          - Term Fees
+          - Twice a year
+          - "1st Term on registration<br>
+            2nd Term by 30 June"
