@@ -56,8 +56,8 @@ layout: default
 							<div class="card-body">
 								<h2 class="card-title">Daycare</h2>
 								<p class="card-text"><em>3:00pm to 6:00pm</em></p>
-								<p class="card-text">An extension from Morning to After School, until 6:00pm to pick up your child. </p>
-									<!-- <a href="#" class="stretched-link"></a> -->
+								<p class="card-text">An extension from Morning to After School, until 6:00pm to pick up your child.</p>
+									<a href="/programs/daycare" class="stretched-link"></a>
 							</div>
 						</div>
 					</div>
