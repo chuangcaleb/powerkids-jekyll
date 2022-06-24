@@ -5,8 +5,8 @@ title: HOME
 
 {% include pk/home-carousel.html %}
 
-<div class="p-md-4 mb-2 rounded-3">
-    <div class="container-fluid col-md-7 py-3">
+<div class="container-md p-md-4">
+    <div class="container-fluid col-lg-10 col-xl-9 col-xxl-8 py-4">
 
         <h1 class="display-3 fw-bold mb-4">
             Welcome to {% include pk/powerkids.html %}!

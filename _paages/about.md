@@ -6,8 +6,8 @@ layout: default
 
 {% assign about_dir = "/assets/images/about" | relative_url %}
 
-<div class="p-4 mb-4 bg-light">
-    <div class="container-fluid py-3 col-md-7">
+<div class="p-4 bg-light">
+    <div class="container py-3 col-md-9 col-xl-7">
         <h1 class="display-4 fw-bold text-center mb-4">About</h1>
         <div class="mb-4 lead">
             <p>
