@@ -1,15 +1,88 @@
 ---
-layout: page
+layout: default
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+{% assign programs_dir = "/assets/images/programs" | relative_url %}
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+<div class="p-4">
+    <div class="container py-3 col-xxl-10">
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+		<h1 class="display-4 fw-bold text-center mb-4 mb-md-5">Programs</h1>
+		<div class="row row-cols-1 row-cols-xl-2 g-3">
+			<div class="morning-school col">
+				<div class="card hover-fade hover-shadow h-100">
+					<div class="row g-0 h-100">
+						<div class="col-sm-auto d-flex align-items-center mt-3 mt-sm-0 ">
+							<img src="{{programs_dir}}/morning.jpg" class="w-auto mx-auto d-block" alt="...">
+							</div>
+						<div class="col-sm">
+							<div class="card-body">
+								<h2 class="card-title">Morning School</h2>
+								<p class="card-text"><em>8:30am to 12:30pm</em></p>
+								<p class="card-text">Early childhood education provided for children from age 2 to age 6.  There will be emphasis on building social emotion to cognitive study from very young age.  PowerKids has a track record of strong academics and good character transformation.</p>
+									<!-- <a href="#" class="stretched-link"></a> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+				<div class="after-school col">
+				<div class="card hover-fade hover-shadow h-100">
+					<div class="row g-0 d-flex h-100">
+		
+							<div class="col-sm-auto d-flex align-items-center mt-3 mt-sm-0 order-md-last">
+							<img src="{{programs_dir}}/after.jpg" class="w-auto mx-auto d-block" alt="...">
+							</div>
+						<div class="col-sm">
+							<div class="card-body">
+								<h2 class="card-title">After School</h2>
+								<p class="card-text"><em>12:30 to 3:00pm</em></p>
+								<p class="card-text">Learning is beyond academics. Lunch and homework coaching in the beginning part of the program daily.  Enrichment classes like Domestic Science to explore kitchen skills, Creative Art and Craft sessions, Speech & Drama into the world of imagination and stepping out to speak with confidence, Information Technology Communication to learn on latest gadgets is to keep up with time.</p>
+									<!-- <a href="#" class="stretched-link"></a> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+				<div class="daycare col">
+				<div class="card hover-fade hover-shadow h-100">
+					<div class="row g-0 d-flex h-100">
+						<div class="col-sm-auto d-flex align-items-center mt-3 mt-sm-0">
+							<img src="{{programs_dir}}/daycare.png" class="w-auto mx-auto d-block" alt="...">
+							</div>
+						<div class="col-sm">
+							<div class="card-body">
+								<h2 class="card-title">Daycare</h2>
+								<p class="card-text"><em>3:00pm to 6:00pm</em></p>
+								<p class="card-text">An extension from Morning to After School, until 6:00pm to pick up your child. </p>
+									<!-- <a href="#" class="stretched-link"></a> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+				<div class="after-school col">
+				<div class="card hover-fade hover-shadow h-100">
+					<div class="row g-0 d-flex h-100">
+		
+							<div class="col-sm-auto d-flex align-items-center mt-3 mt-sm-0 order-md-last">
+							<img src="{{programs_dir}}/online.jpg" class="w-auto mx-auto d-block" alt="...">
+							</div>
+						<div class="col-sm">
+							<div class="card-body">
+								<h2 class="card-title">Online School</h2>
+								<p class="card-text"><em>Schooling Hours</em></p>
+								<p class="card-text">Learning should not stop in spite of a pandemic. We are able to deliver engaging teaching over the internet.</p>
+									<!-- <a href="#" class="stretched-link"></a> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-[jekyll-organization]: https://github.com/jekyll
+	</div>
+</div>

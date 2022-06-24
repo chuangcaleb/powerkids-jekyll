@@ -2,8 +2,6 @@
 layout: default
 ---
 
-<!-- <h1 class="display-3 text-center p-4 mb-0 text-bg-dark">About</h1> -->
-
 {% assign about_dir = "/assets/images/about" | relative_url %}
 
 <div class="p-4 bg-light">
