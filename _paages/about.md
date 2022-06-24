@@ -8,7 +8,7 @@ layout: default
 
 <div class="p-4 mb-4 bg-light">
     <div class="container-fluid py-3 col-md-7">
-        <h1 class="display-3 text-center mb-4">About</h1>
+        <h1 class="display-4 fw-bold text-center mb-4">About</h1>
         <div class="mb-4 lead">
             <p>
                 {% include pk/powerkids.html %}

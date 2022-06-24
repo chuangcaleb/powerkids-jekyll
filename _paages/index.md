@@ -8,7 +8,7 @@ title: HOME
 <div class="p-md-4 mb-2 rounded-3">
     <div class="container-fluid col-md-7 py-3">
 
-        <h1 class="display-5 fw-bold mb-4">
+        <h1 class="display-3 fw-bold mb-4">
             Welcome to {% include pk/powerkids.html %}!
         </h1>
 
