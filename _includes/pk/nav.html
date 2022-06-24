@@ -3,15 +3,27 @@
     <div class="container-fluid justify-content-lg-center">
 
 		<div class="navbar-brand col-md-2">
-			<a class=" d-flex justify-content-md-end" href="{{ "/" | relative_url }}">
-			<img 
-			src="{{"/assets/images/logos/logo.jpeg" | relative_url }}" 
-			alt="LOGO"
-			style="height:60px;"
-			class="hover-fade"
-			>
+			<a class="d-flex justify-content-md-end" href="{{ "/" | relative_url }}">
+				<img 
+				src="{{"/assets/images/logos/logo.jpeg" | relative_url }}" 
+				alt="LOGO"
+				style="height:60px;"
+				class="hover-fade"
+				>
 			</a>
 		</div>
+
+		<button 
+		class="navbar-toggler" 
+		type="button" 
+		data-bs-toggle="collapse" 
+		data-bs-target="#navbarSupportedContent"
+		aria-controls="navbarSupportedContent"
+		aria-expanded="false"
+		aria-label="Toggle navigation"
+		>
+		<span class="navbar-toggler-icon"></span>
+		</button>
 
 		<div class="collapse col-md-7 navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav my-2 m-lg-0 col d-flex justify-content-md-between justify-content-lg-center">
@@ -38,18 +50,6 @@
 
 			</ul>
 		</div>
-
-		<button 
-		class="navbar-toggler" 
-		type="button" 
-		data-bs-toggle="collapse" 
-		data-bs-target="#navbarSupportedContent"
-		aria-controls="navbarSupportedContent"
-		aria-expanded="false"
-		aria-label="Toggle navigation"
-		>
-		<span class="navbar-toggler-icon"></span>
-		</button>
       
 		<div class="col-md-2 d-none d-lg-block"></div>
 
