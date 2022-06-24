@@ -9,7 +9,7 @@ permalink: programs/morning
     <div class="container py-3 col-xl-10">
         <div class="mb-5" id="morning-desc">
             <h2>Morning School&nbsp;
-                <br class="d-sm-none"><small class="text-muted">8.30am to 12.30pm</small>
+                <br class="d-sm-none"><small class="text-muted">8:30am to 12:30pm</small>
             </h2>
             <p class="lead">
                 Early childhood education provided for children from age 2 to age 6. There will be emphasis on building social emotion to cognitive study from very young age.  PowerKids has a track record of strong academics and good character transformation.

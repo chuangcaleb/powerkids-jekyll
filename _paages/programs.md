@@ -37,9 +37,9 @@ layout: default
 						<div class="col-sm">
 							<div class="card-body">
 								<h2 class="card-title">After School</h2>
-								<p class="card-text"><em>12:30 to 3:00pm</em></p>
-								<p class="card-text">Learning is beyond academics. Lunch and homework coaching in the beginning part of the program daily.  Enrichment classes like Domestic Science to explore kitchen skills, Creative Art and Craft sessions, Speech & Drama into the world of imagination and stepping out to speak with confidence, Information Technology Communication to learn on latest gadgets is to keep up with time.</p>
-									<!-- <a href="#" class="stretched-link"></a> -->
+								<p class="card-text"><em>12:30pm to 3:00pm</em></p>
+								<p class="card-text">Learning happens beyond academics. We start with lunch, followed by homework coaching with teachers. Then, there are a huge variety of enrichment classes for our children to grow holistically!</p>
+									<a href="/programs/after" class="stretched-link"></a>
 							</div>
 						</div>
 					</div>
