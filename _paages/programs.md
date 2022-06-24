@@ -20,7 +20,7 @@ layout: default
 								<h2 class="card-title">Morning School</h2>
 								<p class="card-text"><em>8:30am to 12:30pm</em></p>
 								<p class="card-text">Early childhood education provided for children from age 2 to age 6.  There will be emphasis on building social emotion to cognitive study from very young age.  PowerKids has a track record of strong academics and good character transformation.</p>
-									<!-- <a href="#" class="stretched-link"></a> -->
+									<a href="/programs/morning" class="stretched-link"></a>
 							</div>
 						</div>
 					</div>
