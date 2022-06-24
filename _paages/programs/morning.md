@@ -1,15 +1,25 @@
 ---
 layout: default
 permalink: programs/morning
+title: Morning School
 ---
 
 <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 
 <div class="p-3">
     <div class="container py-3 col-xl-10">
-        <div class="mb-5" id="morning-desc">
-            <h2>Morning School&nbsp;
-                <br class="d-sm-none"><small class="text-muted">8:30am to 12:30pm</small>
+        <div class="mb-5" id="after-desc">
+            <h2 class="row row-cols-auto align-items-end mb-4 gx-4">
+                <div class="col">
+                    <span class="display-5">
+                        Morning School
+                    </span>
+                </div>
+                <div class="col my-auto">
+                    <small class="text-muted">
+                        8:30pm to 12:00pm
+                    </small>
+                </div>
             </h2>
             <p class="lead">
                 Early childhood education provided for children from age 2 to age 6. There will be emphasis on building social emotion to cognitive study from very young age.  PowerKids has a track record of strong academics and good character transformation.
