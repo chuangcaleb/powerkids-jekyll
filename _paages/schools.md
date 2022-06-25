@@ -22,8 +22,16 @@ nav: schools
                     <li>57000 Kuala Lumpur</li>
                 </ul>
                 <ul class="phone-numbers list-unstyled">
-                    <li>03 - 9056 4288</li>
-                    <li>​010 - 221 2483</li>
+                    <li>
+                        <a href="tel:+0390564288">
+                            03 - 9056 4288
+                        </a>
+                    </li>
+                    <li>
+                        <a href="tel:+​0102212483">
+                            ​010 - 221 2483
+                        </a>
+                    </li>
                 </ul>
 
             </div>
@@ -50,8 +58,16 @@ nav: schools
                     <li>​57100 Kuala Lumpur</li>
                 </ul>
                 <ul class="phone-numbers list-unstyled">
-                    <li>03 - 9059 2979</li>
-                    <li>010 - 221 2482</li>
+                    <li>
+                        <a href="tel:+0390592979">
+                            03 - 9059 2979
+                        </a>
+                    </li>
+                    <li>
+                        <a href="tel:+0102212482">
+                            010 - 221 2482
+                        </a>
+                    </li>
                 </ul>
 
             </div>
@@ -75,11 +91,15 @@ nav: schools
                 <ul class="address list-unstyled">
                     <li>No 48 Jalan 17/155C</li>
                     <li>Bandar Bukit Jalil</li>
-                    <li>57000  Kuala Lumpur</li>
+                    <li>57000 Kuala Lumpur</li>
                 </ul>
                 <ul class="phone-numbers list-unstyled">
-                    <li>012 - 231 2408</li>
-                    <li>03 - 9545 1455</li>
+                    <li><a href="tel:+0122312408">
+                        012 - 231 2408
+                    </a></li>
+                    <li><a href="tel:+0395451455">
+                        03 - 9545 1455
+                    </a></li>
                 </ul>
 
             </div>
@@ -106,8 +126,12 @@ nav: schools
                     <li>47140 Puchong</li>
                 </ul>
                 <ul class="phone-numbers list-unstyled">
-                    <li>03 - 8066 9363</li>
-                    <li>012 - 218 0240</li>
+                    <li><a href="tel:+0380669363">
+                        03 - 8066 9363
+                    </a></li>
+                    <li><a href="tel:+0122180240">
+                        012 - 218 0240
+                    </a></li>
                 </ul>
 
             </div>
@@ -134,8 +158,12 @@ nav: schools
                     <li>​58200 Kuala Lumpur</li>
                 </ul>
                 <ul class="phone-numbers list-unstyled">
-                    <li>012 - 386 1123</li>
-                    <li>03 - 7498 1905</li>
+                    <li><a href="tel:+0123861123">
+                        012 - 386 1123
+                    </a></li>
+                    <li><a href="tel:+0374981905">
+                        03 - 7498 1905
+                    </a></li>
                 </ul>
 
             </div>
