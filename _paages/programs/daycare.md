@@ -2,6 +2,7 @@
 layout: default
 permalink: programs/daycare
 title: Daycare
+nav: programs
 ---
 
 {% assign daycare_dir = "/assets/images/programs/daycare" | relative_url %}

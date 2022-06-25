@@ -1,5 +1,6 @@
 ---
 layout: default
+nav: register
 ---
 
 <div class="container-fluid my-4 my-xl-5">

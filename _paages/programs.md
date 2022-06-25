@@ -1,5 +1,6 @@
 ---
 layout: default
+nav: programs
 ---
 
 {% assign programs_dir = "/assets/images/programs" | relative_url %}

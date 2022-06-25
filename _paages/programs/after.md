@@ -2,6 +2,7 @@
 layout: default
 permalink: programs/after
 title: After School Program
+nav: programs
 ---
 
 {% assign after_dir = "/assets/images/programs/after" | relative_url %}

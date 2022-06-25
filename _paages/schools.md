@@ -1,5 +1,6 @@
 ---
 layout: default
+nav: schools
 ---
 
 {% assign schools_dir = "/assets/images/schools" | relative_url %}

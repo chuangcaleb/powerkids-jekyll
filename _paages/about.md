@@ -1,5 +1,6 @@
 ---
 layout: default
+nav: about
 ---
 
 {% assign about_dir = "/assets/images/about" | relative_url %}

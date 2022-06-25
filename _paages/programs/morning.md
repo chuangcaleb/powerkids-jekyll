@@ -2,6 +2,7 @@
 layout: default
 permalink: programs/morning
 title: Morning School
+nav: programs
 ---
 
 <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
