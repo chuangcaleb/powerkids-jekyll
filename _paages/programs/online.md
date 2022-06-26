@@ -5,7 +5,7 @@ title: Online School
 nav: programs
 ---
 
-<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+{% include pk/masonry.html %}
 
 <div class="container py-4 mb-2 col-xl-10">
     <div class="row row-cols-1 row-cols-md-2 g-4">
