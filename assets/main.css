@@ -276,9 +276,11 @@ table td { border: 1px solid #e8e8e8; }
 
 .site-header { border-top: none; }
 
-a.nav-link { text-transform: uppercase; display: inline-block; color: black; }
+a.nav-link { text-transform: uppercase; color: black; }
 
 a.nav-link:hover { text-decoration: none; }
+
+.site-footer a.nav-link { display: inline-block; }
 
 .page-content { padding-top: 0px; padding-bottom: 0px; }
 
