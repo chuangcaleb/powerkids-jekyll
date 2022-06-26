@@ -93,15 +93,30 @@
 
 			<ul class="navbar-nav my-2 m-lg-0 col d-flex justify-content-md-between justify-content-lg-center">
 
+				{%- if page.nav == "home" -%}
+					{% assign link_classes = "active-nav" %}
+				{%- else -%}   
+					{% assign link_classes = "" %}
+				{%- endif -%}   
+
+				<li class="nav-item">
+					<a 
+					class="nav-link {{link_classes}}" 
+					href="/">
+						Home
+					</a>
+				</li>
+
+
 				{% assign site_path = page.nav | downcase %}
 
 				{%- for link in site.data.nav -%}
 
 					{%- if link == site_path -%}
-					{% assign link_classes = "active-nav" %}
-					{%-else-%}   
-					{% assign link_classes = "" %}
-					{%-endif-%}   
+						{% assign link_classes = "active-nav" %}
+					{%- else -%}   
+						{% assign link_classes = "" %}
+					{%- endif -%}   
 
 					<li class="nav-item">
 						<a 

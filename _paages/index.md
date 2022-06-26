@@ -1,6 +1,7 @@
 ---
 layout: default
 title: HOME
+nav: home
 ---
 
 {% include pk/home-carousel.html %}
