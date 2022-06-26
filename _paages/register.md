@@ -37,57 +37,61 @@ nav: register
 </div>
 
 
-<div class="container-md py-4 table-responsive">
+<div class="container-md py-4">
     <h2 class="display-4">Fees Structure</h2>
+    <div class="table-responsive">
     <table class="align-middle">
-        <thead>
-            {% for item in site.data.fees.headers %}
-                <th class="bg-red" scope="col">
-                    {{item}}
-                </th>
-            {% endfor %}
-        </thead>
-        <tbody class="table-group-divider">
-            {% for rows in site.data.fees.rows %}
-                <tr>
-                    {% assign first_item = rows.row.first %}
-                    {% for item in rows.row %}
-                        {% if item == first_item %}
-                            <th>{{item}}</th>
-                        {% else %}
-                            <td>{{item}}</td>
-                        {% endif %}
-                    {% endfor %}
-                </tr>
-			{% endfor%}
-        </tbody>
-    </table>
+            <thead>
+                {% for item in site.data.fees.headers %}
+                    <th class="bg-red" scope="col">
+                        {{item}}
+                    </th>
+                {% endfor %}
+            </thead>
+            <tbody class="table-group-divider">
+                {% for rows in site.data.fees.rows %}
+                    <tr>
+                        {% assign first_item = rows.row.first %}
+                        {% for item in rows.row %}
+                            {% if item == first_item %}
+                                <th>{{item}}</th>
+                            {% else %}
+                                <td>{{item}}</td>
+                            {% endif %}
+                        {% endfor %}
+                    </tr>
+                    {% endfor%}
+            </tbody>
+        </table>
+    </div>
 </div>
 
 
-<div class="container-md py-4 table-responsive">
+<div class="container-md py-4">
     <h2 class="display-4">Optional</h2>
-    <table class="align-middle">
-        <thead>
-            {% for item in site.data.fees-optional.headers %}
-                <th class="bg-blue" scope="col">
-                    {{item}}
-                </th>
-            {% endfor %}
-        </thead>
-        <tbody class="table-group-divider">
-            {% for rows in site.data.fees-optional.rows %}
-                <tr>
-                    {% assign first_item = rows.row.first %}
-                    {% for item in rows.row %}
-                        {% if item == first_item %}
-                            <th>{{item}}</th>
-                        {% else %}
-                            <td>{{item}}</td>
-                        {% endif %}
-                    {% endfor %}
-                </tr>
-			{% endfor%}
-        </tbody>
-    </table>
+    <div class="table-responsive">
+        <table class="align-middle">
+            <thead>
+                {% for item in site.data.fees-optional.headers %}
+                    <th class="bg-blue" scope="col">
+                        {{item}}
+                    </th>
+                {% endfor %}
+            </thead>
+            <tbody class="table-group-divider">
+                {% for rows in site.data.fees-optional.rows %}
+                    <tr>
+                        {% assign first_item = rows.row.first %}
+                        {% for item in rows.row %}
+                            {% if item == first_item %}
+                                <th>{{item}}</th>
+                            {% else %}
+                                <td>{{item}}</td>
+                            {% endif %}
+                        {% endfor %}
+                    </tr>
+                    {% endfor%}
+            </tbody>
+        </table>
+    </div>
 </div>
