@@ -3,7 +3,7 @@
 // Fade on hover
 .hover-fade {
 	&:hover {
-		opacity: 0.5;
+		opacity: 0.8s;
 		cursor: pointer; // For MacOS where cursor becomes selection over text
 	}
 	transition-duration: 0.6s;

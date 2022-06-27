@@ -9,7 +9,9 @@ nav: programs
     <div class="container py-3 col-xxl-10">
 
 		<h1 class="display-4 fw-bold text-center mb-4 mb-md-5">Programs</h1>
+
 		<div class="row row-cols-1 row-cols-xl-2 g-3">
+			
 			<div class="morning-school col">
 				<div class="card hover-fade hover-shadow h-100">
 					<div class="row g-0 h-100">
