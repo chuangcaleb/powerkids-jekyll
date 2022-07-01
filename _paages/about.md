@@ -188,7 +188,7 @@ nav: about
         <div class="col">
             <div class="card shadow-sm">
                 <h2 class="card-header display-6 fw-bold lh-1 py-4">Bukit Jalil</h2>
-                <img src="{{about_dir}}/jalil.jpg" class="card-img-top" alt="...">
+                <img src="{{about_dir}}/jalil.jpeg" class="card-img-top" alt="...">
             </div>
         </div>
 
