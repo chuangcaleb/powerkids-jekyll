@@ -67,24 +67,6 @@ nav: programs
 				</div>
 			</div>
 		
-				<div class="after-school col">
-				<div class="card hover-fade hover-shadow h-100">
-					<div class="row g-0 d-flex h-100">
-		
-							<div class="col-sm-auto d-flex align-items-center mt-3 mt-sm-0 order-md-last">
-							<img src="{{programs_dir}}/online.jpg" class="w-auto mx-auto d-block" alt="...">
-							</div>
-						<div class="col-sm">
-							<div class="card-body">
-								<h2 class="card-title">Online School</h2>
-								<p class="card-text"><em>Schooling Hours</em></p>
-								<p class="card-text">Learning should not stop in spite of a pandemic. We are able to deliver engaging teaching over the internet.</p>
-									<a href="/programs/online" class="stretched-link"></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
 		</div>
 
 	</div>
