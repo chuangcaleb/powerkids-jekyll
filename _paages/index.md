@@ -1,6 +1,6 @@
 ---
 layout: default
-title: HOME
+title: Home
 nav: home
 ---
 
@@ -206,7 +206,7 @@ nav: home
 
         <div class="col">
             <div class="card shadow-sm">
-                <h2 class="card-header display-6 fw-bold lh-1 py-4">Puchong BK9</h2>
+                <h2 class="card-header display-6 fw-bold lh-1 py-4">Puchong Utama</h2>
                 <img src="{{about_dir}}/puchong.jpg" class="card-img-top" alt="...">
             </div>
         </div>
