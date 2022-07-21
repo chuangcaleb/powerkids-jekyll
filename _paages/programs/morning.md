@@ -31,13 +31,15 @@ nav: programs
 <div class="container-fluid container-md mb-4">
 
     <div class="row g-2" data-masonry="{&quot;percentPosition&quot;: true }" style="position: relative; height: 690px;">
-        {% for image in site.static_files %}
-            {% if image.path contains 'images/programs/morn/' %}
+
+        {% for imgpath in site.data.img_dir.morn %}
+
                 <div class="col-sm-6 col-lg-4 col-xl-3">
-                    <img src="{{ site.baseurl }}{{ image.path }}" alt="image"/>
+                    <img src="/assets/images/programs/morn/{{ imgpath }}" alt="image"/>
                 </div>
-            {% endif %}
+
         {% endfor %}
+       
     </div>
 
 </div>
