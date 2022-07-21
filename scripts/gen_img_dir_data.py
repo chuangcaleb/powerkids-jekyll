@@ -50,7 +50,7 @@ img_dir_data = get_rcs_dir(output_dir, base_path, "images")
 # Dump to yaml
 for dir, contents in img_dir_data.items():
 
-    with open(output_path + dir + ".yml", 'a') as file:
+    with open(output_path + dir + ".yml", 'w') as file:
         yaml.dump(contents, file)
 
 
