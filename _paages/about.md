@@ -89,7 +89,7 @@ nav: about
                 <h2 class="display-3 fw-bold my-4">Our Vision</h2>
                 <p class="lead fs-3">To raise a new generation of 21st-Century Children with
                     <span class="underline">heart</span>.</p>
-                <button class="btn btn-primary btn-lg px-4 m-4" type="button">Our Community Service</button>
+                <a href="events/comm"><button class="btn btn-primary btn-lg px-4 m-4" type="button">Our Community Service</button></a>
             </div>
         </div>
     </div>
