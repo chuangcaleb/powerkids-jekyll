@@ -5,11 +5,16 @@ title: Field Trips
 nav: events
 ---
 
-<div class="container py-4 mb-2 col-xl-10">
+<div class="container py-4 mb-2 col-xl-10 text-center">
 	
-	<h1 class="display-5 text-center">Field Trips</h1>
+	<h1 class="display-4 my-lg-4">Field Trips</h1>
 	
-	<p class="lead">Field trips helps bring learning outside the classroom, giving children a new perspective and boost cognitive development. These trips offer diverse learning opportunities, improve health and allow children to get authentic experiences.</p>
+	<p class="lead fs-5 mx-auto">
+		Field trips help bring learning outside the classroom, giving children a new perspective and boost cognitive development. 
+	</p>
+	<p class="lead fs-5 mx-auto">
+	These trips offer diverse learning opportunities, improve health and allow children to get authentic experiences.
+	</p>
 
 	<div class="my-5">
 
@@ -27,8 +32,8 @@ nav: events
 	
 	</div>
 
-	<h5 class="text-center">Other places we have visited:</h5>
-	<p class="text-center fs-5">Bomba • Aquaria • Hair Saloon • EcoFarm • Bank Negara • National Science Centre • Grocery Shopping • Zoo Negara • Kidzania</p>
+	<h5 class="">Other places we have visited:</h5>
+	<p class="fs-5">Bomba • Aquaria • Hair Saloon • EcoFarm • Bank Negara • National Science Centre • Grocery Shopping • Zoo Negara • Kidzania</p>
 
 </div>
 

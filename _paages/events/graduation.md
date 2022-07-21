@@ -5,9 +5,13 @@ title: Graduation Concert
 nav: events
 ---
 
-<div class="container py-4 mb-2 col-xl-10">
-	<h1 class="display-5 text-center">Graduation Concert</h1>
-	<p class="lead">Graduation Concert is a celebration of our children completed pre-school learning. Stage performance is a showcase of discipline and training of children over the years.</p>
+<div class="container py-4 mb-2 col-xl-10 text-center">
+	<h1 class="display-4 my-lg-4">Graduation Concert</h1>
+	<p class="lead fs-4">
+		Our Graduation Concert is a celebration of our children who completed their pre-school learning.
+		<br>
+		Stage performance is a showcase of discipline and training of children over the years!
+	</p>
 
 	<div class="row row-cols-1 row-cols-md-2 g-5 py-4">
 

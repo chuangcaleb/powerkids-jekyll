@@ -10,9 +10,9 @@ nav: events
 <div class="container py-4 mb-2 col-xl-10">
 	<div class="row row-cols-1 row-cols-md-2">
 		<div class="col my-auto">
-			<div class="col-md-10 text-center mx-auto">
-				<h1 class ="display-5">Sports Day</h1>
-				<p class="lead">It's about championship, sportsmanship, winning, competing, participation, and most of all: a family day out. A wonderful sight of parent-children games.</p>
+			<div class="col-xl-10 text-center mx-auto">
+				<h1 class ="display-4">Sports Day</h1>
+				<p class="lead fs-4">It's about championship, sportsmanship, winning, competing, participation, and most of all: a family day out. A wonderful sight of parent-children games.</p>
 			</div>
 		</div>
 		<div class="col order-md-first">
