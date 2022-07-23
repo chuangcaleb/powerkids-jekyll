@@ -20,7 +20,7 @@ nav: register
                 <a class="mx-auto" href="https://docs.google.com/forms/d/e/1FAIpQLScx6CBPRCpy701cuUepOTB2r7_d0DdaYDuIRtPN5U5OtV7phQ/viewform?usp=sf_link" rel="noopener noreferrer" target="_blank">
                     <button class="btn btn-primary btn-lg w-100" type="button">
                         <i class="bi-box-arrow-up-right flex-shrink-0 me-2"></i>
-                        Open Registration Form
+                        Registration Form
                     </button>
                 </a>
             </div>
@@ -36,11 +36,10 @@ nav: register
     </div>
 </div>
 
-
 <div class="container-md py-4">
     <h2 class="display-4">Fees Structure</h2>
     <div class="table-responsive">
-    <table class="align-middle">
+        <table class="align-middle">
             <thead>
                 {% for item in site.data.fees.headers %}
                     <th class="bg-red" scope="col">
@@ -60,12 +59,11 @@ nav: register
                             {% endif %}
                         {% endfor %}
                     </tr>
-                    {% endfor%}
+                {% endfor %}
             </tbody>
         </table>
     </div>
 </div>
-
 
 <div class="container-md py-4">
     <h2 class="display-4">Optional</h2>
@@ -90,7 +88,7 @@ nav: register
                             {% endif %}
                         {% endfor %}
                     </tr>
-                    {% endfor%}
+                {% endfor %}
             </tbody>
         </table>
     </div>

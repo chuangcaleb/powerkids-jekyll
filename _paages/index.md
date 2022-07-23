@@ -11,7 +11,8 @@ nav: home
     <div class="container-fluid col-lg-10 col-xl-9 col-xxl-8 py-4">
 
         <h1 class="display-3 fw-bold mb-4">
-            Welcome to {% include pk/powerkids.html %}!
+            Welcome to
+            {% include pk/powerkids.html %}!
         </h1>
 
         <div class="jumbo-body mb-4 lead">
@@ -33,7 +34,7 @@ nav: home
 
 
 <div class="bg-light">
-    
+
     <div class="container-fluid px-3 py-3 col-lg-9 col-xl-8" id="icon-grid">
         <div class="row row-cols-1 row-cols-sm-2 py-4 mx-0">
             <div class="col d-flex align-items-start g-4">
@@ -100,7 +101,9 @@ nav: home
                 <h2 class="display-3 fw-bold my-4">Our Vision</h2>
                 <p class="lead fs-3">To raise a new generation of 21st-Century Children with
                     <span class="underline">heart</span>.</p>
-                <a href="events/comm"><button class="btn btn-primary btn-lg px-4 m-4" type="button">Our Community Service</button></a>
+                <a href="events/comm">
+                    <button class="btn btn-primary btn-lg px-4 m-4" type="button">Our Community Service</button>
+                </a>
             </div>
         </div>
     </div>
@@ -147,7 +150,7 @@ nav: home
 <div class="school-teams bg-dark text-center">
 
     <div class="container py-4">
-    
+
         <div class="card mx-xl-5">
             <h2 class="card-header display-6 fw-bold lh-1 py-3">Sri Petaling</h2>
             <div class="body-card py-2 py-lg-4">
@@ -187,39 +190,39 @@ nav: home
                 </div>
             </div>
         </div>
-    
+
         <div class="row row-cols-1 row-cols-md-2 g-0 gy-3 g-lg-4 my-0 mx-xl-4">
-    
+
             <div class="col">
                 <div class="card shadow-sm">
                     <h2 class="card-header fs-2 fw-bold lh-1 py-3">Salak South Garden</h2>
                     <img src="{{about_dir}}/k45.jpeg" class="card-img-top" alt="...">
                 </div>
             </div>
-    
+
             <div class="col">
                 <div class="card shadow-sm">
                     <h2 class="card-header fs-2 fw-bold lh-1 py-3">Bukit Jalil</h2>
                     <img src="{{about_dir}}/jalil.jpeg" class="card-img-top" alt="...">
                 </div>
             </div>
-    
+
             <div class="col">
                 <div class="card shadow-sm">
                     <h2 class="card-header fs-2 fw-bold lh-1 py-3">Puchong Utama</h2>
                     <img src="{{about_dir}}/puchong.jpg" class="card-img-top" alt="...">
                 </div>
             </div>
-    
+
             <div class="col">
                 <div class="card shadow-sm">
                     <h2 class="card-header fs-2 fw-bold lh-1 py-3">Parklane OUG</h2>
                     <img src="{{about_dir}}/parklane.jpg" class="card-img-top" alt="...">
                 </div>
             </div>
-    
+
         </div>
-    
+
     </div>
 </div>
 
@@ -240,7 +243,7 @@ nav: home
                 <a class="mx-auto d-block my-2" href="https://docs.google.com/forms/d/e/1FAIpQLScx6CBPRCpy701cuUepOTB2r7_d0DdaYDuIRtPN5U5OtV7phQ/viewform?usp=sf_link" rel="noopener noreferrer" target="_blank">
                     <button class="btn btn-primary btn-lg w-100" type="button">
                         <i class="bi-box-arrow-up-right flex-shrink-0 me-2"></i>
-                        Open Registration Form
+                        Registration Form
                     </button>
                 </a>
 
