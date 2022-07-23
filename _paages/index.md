@@ -123,8 +123,8 @@ nav: home
                 </div>
             </div>
         </div>
-        <div class="col-10 col-sm-8 col-lg-4 mx-auto my-3">
-            <img src="{{about_dir}}/21yrs.jpeg" class="d-block w-100" alt="..." style="transform:rotate(10deg)">
+        <div class="col-10 col-sm-8 col-lg-4 mx-auto my-3 justify-content-center">
+            <img src="{{about_dir}}/21yrs.jpeg" class="d-block mx-auto" alt="..." style="transform: rotate(10deg); max-height: 400px;">
         </div>
     </div>
 </div>
