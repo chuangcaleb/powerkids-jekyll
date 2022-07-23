@@ -90,7 +90,7 @@ nav: home
 </div>
 
 <div class="row justify-content-md-center py-5 bg-dark mx-0">
-    <div class="container col-xl-10 row mx-0">
+    <div class="container col-xl-11 row mx-0">
 
         <div class="col-10 col-sm-8 col-lg-6 mx-auto my-3">
             <img src="{{about_dir}}/apple-girl.jpg" class="d-block w-100 " alt="...">
@@ -109,7 +109,7 @@ nav: home
 <div class="mission-vision-divider"></div>
 
 <div class="row justify-content-md-center py-5 mx-0">
-    <div class="container col-xl-10 row align-items-between mx-0">
+    <div class="container col-xl-11 row align-items-between mx-0">
         <div class="col-lg-6 d-flex flex-column my-auto">
             <div class="d-flex align-items-start flex-column mb-3 mx-auto">
                 <h2 class="display-3 fw-bold my-4 mx-auto mx-md-0">Our Mission</h2>
@@ -130,7 +130,7 @@ nav: home
 </div>
 
 <div class="our-team p-4 bg-primary text-bg-primary text-center">
-    <div class="container-fluid py-md-3 col-md-9 g-0">
+    <div class="container-fluid py-md-3 col-md-10 g-0">
         <h2 class="display-3 fw-bold lh-1 my-4">Our Team</h2>
         <div class="our-team-body lead">
             <p>At PowerKids, we have trained, qualified teachers who are passionate and dynamic. Their joy comes from seeing our little learners light up as they make new friends or learn new letters, words or concepts.
@@ -144,80 +144,83 @@ nav: home
 
 <div class="our-team-divider"></div>
 
-<div class="pt-5 p-md-5 bg-dark text-center">
+<div class="school-teams bg-dark text-center">
 
-    <div class="card col-md-10 mx-auto">
-        <h2 class="card-header display-6 fw-bold lh-1 py-4">Sri Petaling</h2>
-        <div class="card-body">
-            <div class="col-md-11 row row-cols-1 row-cols-md-2 g-4 mx-auto">
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <img src="{{about_dir}}/s2-age-4.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Age 4 Teachers</h5>
+    <div class="container py-4">
+    
+        <div class="card mx-xl-5">
+            <h2 class="card-header display-6 fw-bold lh-1 py-3">Sri Petaling</h2>
+            <div class="body-card py-2 py-lg-4">
+                <div class="row row-cols-1 row-cols-md-2 g-3 g-lg-4 mx-auto">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="{{about_dir}}/s2-age-4.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Age 4 Teachers</h5>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <img src="{{about_dir}}/s2-age-5.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Age 5 Teachers</h5>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="{{about_dir}}/s2-age-5.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Age 5 Teachers</h5>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <img src="{{about_dir}}/s2-age-6.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Age 6 Teachers</h5>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="{{about_dir}}/s2-age-6.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Age 6 Teachers</h5>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <img src="{{about_dir}}/s2-admin.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Administration Team</h5>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="{{about_dir}}/s2-admin.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Administration Team</h5>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    
+        <div class="row row-cols-1 row-cols-md-2 g-0 gy-3 g-lg-4 my-0 mx-xl-4">
+    
+            <div class="col">
+                <div class="card shadow-sm">
+                    <h2 class="card-header fs-2 fw-bold lh-1 py-3">Salak South Garden</h2>
+                    <img src="{{about_dir}}/k45.jpeg" class="card-img-top" alt="...">
+                </div>
+            </div>
+    
+            <div class="col">
+                <div class="card shadow-sm">
+                    <h2 class="card-header fs-2 fw-bold lh-1 py-3">Bukit Jalil</h2>
+                    <img src="{{about_dir}}/jalil.jpeg" class="card-img-top" alt="...">
+                </div>
+            </div>
+    
+            <div class="col">
+                <div class="card shadow-sm">
+                    <h2 class="card-header fs-2 fw-bold lh-1 py-3">Puchong Utama</h2>
+                    <img src="{{about_dir}}/puchong.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+    
+            <div class="col">
+                <div class="card shadow-sm">
+                    <h2 class="card-header fs-2 fw-bold lh-1 py-3">Parklane OUG</h2>
+                    <img src="{{about_dir}}/parklane.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+    
+        </div>
+    
     </div>
-
-    <div class="col-md-10 row row-cols-1 row-cols-md-2 pt-5 g-0 gy-5 g-md-3 mx-auto">
-
-        <div class="col">
-            <div class="card shadow-sm">
-                <h2 class="card-header display-6 fw-bold lh-1 py-4">Salak South Garden</h2>
-                <img src="{{about_dir}}/k45.jpeg" class="card-img-top" alt="...">
-            </div>
-        </div>
-
-        <div class="col">
-            <div class="card shadow-sm">
-                <h2 class="card-header display-6 fw-bold lh-1 py-4">Bukit Jalil</h2>
-                <img src="{{about_dir}}/jalil.jpeg" class="card-img-top" alt="...">
-            </div>
-        </div>
-
-        <div class="col">
-            <div class="card shadow-sm">
-                <h2 class="card-header display-6 fw-bold lh-1 py-4">Puchong Utama</h2>
-                <img src="{{about_dir}}/puchong.jpg" class="card-img-top" alt="...">
-            </div>
-        </div>
-
-        <div class="col">
-            <div class="card shadow-sm">
-                <h2 class="card-header display-6 fw-bold lh-1 py-4">Parklane OUG</h2>
-                <img src="{{about_dir}}/parklane.jpg" class="card-img-top" alt="...">
-            </div>
-        </div>
-
-    </div>
-
 </div>
 
 <div class="container-fluid my-4 my-xl-5">
