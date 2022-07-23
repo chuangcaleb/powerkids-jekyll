@@ -11,10 +11,10 @@ nav: register
 
                 <h1 class="display-4 fw-bold">Register with us!</h1>
 
-                <ol class="register-steps lead ms-0 m-3">
+                <ol class="register-steps lead ms-0 m-4">
                     <li>Complete and sign the Registration Form</li>
                     <li>Attach with photocopy of birth certificate​</li>
-                    <li>Full payment of registration</li>
+                    <li>Make full payment for registration</li>
                 </ol>
 
                 <a class="mx-auto" href="https://docs.google.com/forms/d/e/1FAIpQLScx6CBPRCpy701cuUepOTB2r7_d0DdaYDuIRtPN5U5OtV7phQ/viewform?usp=sf_link" rel="noopener noreferrer" target="_blank">
