@@ -90,12 +90,11 @@ nav: home
 </div>
 
 <div class="row justify-content-md-center py-5 bg-dark mx-0">
-    <div class="col-md-10 row mx-0">
+    <div class="container col-xl-10 row mx-0">
 
         <div class="col-10 col-sm-8 col-lg-6 mx-auto my-3">
             <img src="{{about_dir}}/apple-girl.jpg" class="d-block w-100 " alt="...">
         </div>
-        <div class="col-md mx-auto"></div>
         <div class="col-lg-5 d-flex align-items-center flex-column my-auto">
             <div class="text-center text-white">
                 <h2 class="display-3 fw-bold my-4">Our Vision</h2>
@@ -110,7 +109,7 @@ nav: home
 <div class="mission-vision-divider"></div>
 
 <div class="row justify-content-md-center py-5 mx-0">
-    <div class="col-md-10 row align-items-between mx-0">
+    <div class="container col-xl-10 row align-items-between mx-0">
         <div class="col-lg-6 d-flex flex-column my-auto">
             <div class="d-flex align-items-start flex-column mb-3 mx-auto">
                 <h2 class="display-3 fw-bold my-4 mx-auto mx-md-0">Our Mission</h2>
@@ -124,7 +123,6 @@ nav: home
                 </div>
             </div>
         </div>
-        <div class="col-md mx-auto"></div>
         <div class="col-10 col-sm-8 col-lg-4 mx-auto my-3">
             <img src="{{about_dir}}/21yrs.jpeg" class="d-block w-100" alt="..." style="transform:rotate(10deg)">
         </div>
