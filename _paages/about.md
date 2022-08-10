@@ -1,7 +1,6 @@
 ---
 layout: default
 nav: about
-published: false
 ---
 
 {% assign about_dir = "/assets/images/about" | relative_url %}
@@ -24,51 +23,51 @@ published: false
     </div>
 </div>
 
-<div class="container px-3 py-3 col-md-7" id="icon-grid">
-    <div class="container-md row row-cols-1 row-cols-sm-2 g-4 py-4 mx-0">
-        <div class="col d-flex align-items-start">
+<div class="container-fluid px-3 py-3 col-lg-9 col-xl-8" id="icon-grid">
+    <div class="row row-cols-1 row-cols-sm-2 py-4 mx-0">
+        <div class="col d-flex align-items-start g-4">
             <i class="bi-award text-muted flex-shrink-0 me-3 display-6"></i>
             <div>
                 <h4 class="fw-bold mb-0">Fungates Programme</h4>
                 <p>Positive reinforcement of 21st century learning.</p>
             </div>
         </div>
-        <div class="col d-flex align-items-start">
+        <div class="col d-flex align-items-start g-4">
             <i class="bi-balloon-heart text-muted flex-shrink-0 me-3 display-6"></i>
             <div>
                 <h4 class="fw-bold mb-0">Emotional Well-Being</h4>
                 <p>Caring beyond academics.</p>
             </div>
         </div>
-        <div class="col d-flex align-items-start">
+        <div class="col d-flex align-items-start g-4">
             <i class="bi-mortarboard text-muted flex-shrink-0 me-3 display-6"></i>
             <div>
                 <h4 class="fw-bold mb-0">Trained, Qualified Teachers</h4>
                 <p>Our teacher's skills are upgraded constantly.</p>
             </div>
         </div>
-        <div class="col d-flex align-items-start">
+        <div class="col d-flex align-items-start g-4">
             <i class="bi-binoculars text-muted flex-shrink-0 me-3 display-6"></i>
             <div>
                 <h4 class="fw-bold mb-0">Apparatus</h4>
                 <p>Equipped with a variety of tools to inspire learning.</p>
             </div>
         </div>
-        <div class="col d-flex align-items-start">
+        <div class="col d-flex align-items-start g-4">
             <i class="bi-pc-display-horizontal text-muted flex-shrink-0 me-3 display-6"></i>
             <div>
                 <h4 class="fw-bold mb-0">Technology</h4>
                 <p>Tech is integrated into learning and teaching environment.</p>
             </div>
         </div>
-        <div class="col d-flex align-items-start">
+        <div class="col d-flex align-items-start g-4">
             <i class="bi-cloud-sun text-muted flex-shrink-0 me-3 display-6"></i>
             <div>
                 <h4 class="fw-bold mb-0">Environment</h4>
                 <p>Clean, spacious environment for for cheerful children.</p>
             </div>
         </div>
-        <div class="col d-flex align-items-start">
+        <div class="col d-flex align-items-start g-4">
             <i class="bi-house-heart text-muted flex-shrink-0 me-3 display-6"></i>
             <div>
                 <h4 class="fw-bold mb-0">Premises</h4>
@@ -79,27 +78,29 @@ published: false
 </div>
 
 <div class="row justify-content-md-center py-5 bg-dark mx-0">
-    <div class="col-md-10 row mx-0">
+    <div class="container col-xl-10 row mx-0 ">
 
-        <div class="col-10 col-sm-8 col-lg-6 mx-auto my-3">
-            <img src="{{about_dir}}/apple-girl.jpg" class="d-block w-100 " alt="...">
+        <div class="col-10 col-sm-8 col-lg-5 col-xl-5 px-0 mx-auto my-3">
+            <img src="{{about_dir}}/apple-girl.jpg" class="" alt="...">
         </div>
-        <div class="col-md mx-auto"></div>
-        <div class="col-lg-5 d-flex align-items-center flex-column my-auto">
+        <div class="col-lg-5 d-flex align-items-center flex-column m-auto">
             <div class="text-center text-white">
                 <h2 class="display-3 fw-bold my-4">Our Vision</h2>
                 <p class="lead fs-3">To raise a new generation of 21st-Century Children with
                     <span class="underline">heart</span>.</p>
-                <a href="events/comm"><button class="btn btn-primary btn-lg px-4 m-4" type="button">Our Community Service</button></a>
+                <a href="events/comm">
+                    <button class="btn btn-primary btn-lg px-4 m-4" type="button">Our Community Service</button>
+                </a>
             </div>
         </div>
     </div>
+
 </div>
 
 <div class="mission-vision-divider"></div>
 
 <div class="row justify-content-md-center py-5 mx-0">
-    <div class="col-md-10 row align-items-between mx-0">
+    <div class="container col-xl-10 row align-items-between mx-0">
         <div class="col-lg-6 d-flex flex-column my-auto">
             <div class="d-flex align-items-start flex-column mb-3 mx-auto">
                 <h2 class="display-3 fw-bold my-4 mx-auto mx-md-0">Our Mission</h2>
@@ -113,15 +114,14 @@ published: false
                 </div>
             </div>
         </div>
-        <div class="col-md mx-auto"></div>
-        <div class="col-10 col-sm-8 col-lg-4 mx-auto my-3">
-            <img src="{{about_dir}}/21yrs.jpeg" class="d-block w-100" alt="..." style="transform:rotate(10deg)">
+        <div class="col-10 col-sm-8 col-lg-4 mx-auto my-3 justify-content-center">
+            <img src="{{about_dir}}/21yrs.jpeg" class="d-block mx-auto" alt="..." style="transform: rotate(10deg); max-height: 400px;">
         </div>
     </div>
 </div>
 
 <div class="our-team p-4 bg-primary text-bg-primary text-center">
-    <div class="container-fluid py-md-3 col-md-9 g-0">
+    <div class="container-fluid py-md-3 col-md-10 g-0 mb-4">
         <h2 class="display-3 fw-bold lh-1 my-4">Our Team</h2>
         <div class="our-team-body lead">
             <p>At PowerKids, we have trained, qualified teachers who are passionate and dynamic. Their joy comes from seeing our little learners light up as they make new friends or learn new letters, words or concepts.
@@ -135,78 +135,84 @@ published: false
 
 <div class="our-team-divider"></div>
 
-<div class="pt-5 p-md-5 bg-dark text-center">
+<div class="school-teams bg-dark text-center pb-3">
 
-    <div class="card col-md-10 mx-auto">
-        <h2 class="card-header display-6 fw-bold lh-1 py-4">Sri Petaling</h2>
-        <div class="card-body">
-            <div class="col-md-11 row row-cols-1 row-cols-md-2 g-4 mx-auto">
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <img src="{{about_dir}}/s2-age-4.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Age 4 Teachers</h5>
+    <div class="container py-4">
+
+        <div class="card mx-xl-5">
+            <h2 class="card-header display-6 fw-bold lh-1 py-3">Sri Petaling</h2>
+            <div class="body-card py-2 py-lg-4">
+                <div class="row row-cols-1 row-cols-md-2 g-3 g-lg-4 mx-auto">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="{{about_dir}}/s2-age-4.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Age 4 Teachers</h5>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <img src="{{about_dir}}/s2-age-5.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Age 5 Teachers</h5>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="{{about_dir}}/s2-age-5.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Age 5 Teachers</h5>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <img src="{{about_dir}}/s2-age-6.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Age 6 Teachers</h5>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="{{about_dir}}/s2-age-6.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Age 6 Teachers</h5>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <img src="{{about_dir}}/s2-admin.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Administration Team</h5>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="{{about_dir}}/s2-admin.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Administration Team</h5>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="col-md-10 row row-cols-1 row-cols-md-2 pt-5 g-0 gy-5 g-md-3 mx-auto">
+        <div class="row row-cols-1 row-cols-md-2 g-0 gy-3 g-lg-4 my-0 mx-xl-4">
 
-        <div class="col">
-            <div class="card shadow-sm">
-                <h2 class="card-header display-6 fw-bold lh-1 py-4">Salak South Garden</h2>
-                <img src="{{about_dir}}/k45.jpeg" class="card-img-top" alt="...">
+            <div class="col">
+                <div class="card shadow-sm">
+                    <h2 class="card-header fs-2 fw-bold lh-1 py-3">Salak South Garden</h2>
+                    <img src="{{about_dir}}/k45.jpeg" class="card-img-top" alt="...">
+                </div>
             </div>
-        </div>
 
-        <div class="col">
-            <div class="card shadow-sm">
-                <h2 class="card-header display-6 fw-bold lh-1 py-4">Bukit Jalil</h2>
-                <img src="{{about_dir}}/jalil.jpeg" class="card-img-top" alt="...">
+            <div class="col">
+                <div class="card shadow-sm">
+                    <h2 class="card-header fs-2 fw-bold lh-1 py-3">Bukit Jalil</h2>
+                    <img src="{{about_dir}}/jalil.jpeg" class="card-img-top" alt="...">
+                </div>
             </div>
-        </div>
 
-        <div class="col">
-            <div class="card shadow-sm">
-                <h2 class="card-header display-6 fw-bold lh-1 py-4">Puchong BK9</h2>
-                <img src="{{about_dir}}/puchong.jpg" class="card-img-top" alt="...">
+            <div class="col">
+                <div class="card shadow-sm">
+                    <h2 class="card-header fs-2 fw-bold lh-1 py-3">Puchong Utama</h2>
+                    <img src="{{about_dir}}/puchong.jpg" class="card-img-top" alt="...">
+                </div>
             </div>
-        </div>
 
-        <div class="col">
-            <div class="card shadow-sm">
-                <h2 class="card-header display-6 fw-bold lh-1 py-4">Parklane OUG</h2>
-                <img src="{{about_dir}}/parklane.jpg" class="card-img-top" alt="...">
+            <div class="col">
+                <div class="card shadow-sm">
+                    <h2 class="card-header fs-2 fw-bold lh-1 py-3">Parklane OUG</h2>
+                    <img src="{{about_dir}}/parklane.jpg" class="card-img-top" alt="...">
+                </div>
             </div>
+
         </div>
 
     </div>
 
 </div>
+
+{% include pk/bottom-action.html %}
