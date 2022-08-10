@@ -32,7 +32,6 @@ nav: home
 
 </div>
 
-
 <div class="bg-light">
 
     <div class="container-fluid px-3 py-3 col-lg-9 col-xl-8" id="icon-grid">
@@ -88,12 +87,13 @@ nav: home
             </div>
         </div>
     </div>
+
 </div>
 
 <div class="row justify-content-md-center py-5 bg-dark mx-0">
     <div class="container col-xl-11 row mx-0">
 
-        <div class="col-10 col-sm-8 col-lg-6 mx-auto my-3">
+        <div class="col-10 col-sm-8 col-lg-6 px-0 mx-auto my-3">
             <img src="{{about_dir}}/apple-girl.jpg" class="d-block w-100 " alt="...">
         </div>
         <div class="col-lg-5 d-flex align-items-center flex-column my-auto">
@@ -107,6 +107,7 @@ nav: home
             </div>
         </div>
     </div>
+
 </div>
 
 <div class="mission-vision-divider"></div>
@@ -133,7 +134,7 @@ nav: home
 </div>
 
 <div class="our-team p-4 bg-primary text-bg-primary text-center">
-    <div class="container-fluid py-md-3 col-md-10 g-0">
+    <div class="container-fluid py-md-3 col-md-10 g-0 mb-4">
         <h2 class="display-3 fw-bold lh-1 my-4">Our Team</h2>
         <div class="our-team-body lead">
             <p>At PowerKids, we have trained, qualified teachers who are passionate and dynamic. Their joy comes from seeing our little learners light up as they make new friends or learn new letters, words or concepts.
@@ -147,7 +148,7 @@ nav: home
 
 <div class="our-team-divider"></div>
 
-<div class="school-teams bg-dark text-center">
+<div class="school-teams bg-dark text-center pb-3">
 
     <div class="container py-4">
 
@@ -224,6 +225,7 @@ nav: home
         </div>
 
     </div>
+
 </div>
 
 <div class="container-fluid my-4 my-xl-5">
@@ -263,4 +265,5 @@ nav: home
         </div>
 
     </div>
+
 </div>
