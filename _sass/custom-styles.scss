@@ -34,11 +34,12 @@ a.active-nav:hover,
 #fb-embeds .col {
 	margin-left: auto !important;
 	margin-right: auto !important;
-	display:flex;
 	&>.fb-post{
+		display:flex !important;
+		&>span {
 		margin-left: auto !important;
 		margin-right: auto !important;
-		
+	}
 		iframe{
 			background-color: white;
 		}
