@@ -318,16 +318,24 @@ a.active-nav, a.active-nav:hover, .underline { text-decoration: underline; text-
 
 #home-carousel .carousel-item img { height: 47vw; }
 
+#fb-embeds .col { margin-left: auto !important; margin-right: auto !important; }
+
+#fb-embeds .col > .fb-post { display: flex !important; }
+
+#fb-embeds .col > .fb-post > span { margin-left: auto !important; margin-right: auto !important; }
+
+#fb-embeds .col > .fb-post iframe { background-color: white; }
+
 @media (max-width: 767.98px) { .navbar-brand { margin-left: 1rem; } }
 
 .site-footer .nav-item:first-child .nav-link { padding-top: 0px; }
 
-.our-team-divider { position: relative; height: 50px; background-color: #212529; }
+.our-team-divider { position: relative; height: 70px; background-color: #212529; }
 
-.our-team-divider::before { content: ""; position: absolute; bottom: 0; width: 0; height: 0; border-style: solid; border-width: 50px 150px 0 150px; border-color: #0d6efd transparent transparent transparent; left: 50%; transform: translateX(-50%) translateY(0%); }
+.our-team-divider::before { content: ""; position: absolute; bottom: 0; width: 0; height: 0; border-style: solid; border-width: 50px 150px 0 150px; border-color: #0d6efd transparent transparent transparent; left: 50%; transform: translateX(-50%) translateY(-70%); }
 
 .phone-numbers li a { color: white; }
 
-.phone-numbers li a:hover { color: #1756a9; }
+.phone-numbers li a:hover { color: #334358; }
 
 /*# sourceMappingURL=main.css.map */
