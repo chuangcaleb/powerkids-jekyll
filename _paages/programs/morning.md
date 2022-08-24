@@ -34,12 +34,23 @@ nav: programs
 
         {% for imgpath in site.data.img_dir.morn %}
 
-                <div class="col-sm-6 col-lg-4 col-xl-3">
-                    <img src="/assets/images/programs/morn/{{ imgpath }}" alt="image"/>
-                </div>
+            <div class="col-sm-6 col-lg-4 col-xl-3">
+                <img alt="image" src="/assets/images/programs/morn/{{ imgpath }}"/>
+            </div>
 
         {% endfor %}
-       
+
     </div>
 
+</div>
+
+<div class="container-md my-5">
+    <h2 class="display-6 mb-3">Check out our other Programs...</h2>
+    <div class="row row-cols-1 row-cols-xl-2 g-3">
+        
+        {% assign programs_dir = "/assets/images/programs" | relative_url %}
+        {% include pk/pg/daycare-card.html %}
+        {% include pk/pg/after-card.html %}
+
+    </div>
 </div>
