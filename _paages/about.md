@@ -40,7 +40,7 @@ nav: about
 
 <div class="our-team-divider"></div>
 
-<div class="school-teams bg-dark text-center pb-3">
+<div class="school-teams bg-dark text-center pb-4">
 
     <div class="container py-4">
 
@@ -118,6 +118,12 @@ nav: about
 
     </div>
 
+    <a class="text-decoration-none my-lg-5 d-inline-flex align-self-center" href="/schools">
+        <button class="btn btn-outline-light btn-lg">Our Five Schools →</button>
+    </a>
+
 </div>
+
+{% include pk/embed-reel.html %}
 
 {% include pk/bottom-action.html %}
