@@ -7,6 +7,7 @@ nav: home
 {% include pk/home-carousel.html %}
 {% assign about_dir = "/assets/images/about" | relative_url %}
 
+
 <div class="container-md p-md-4">
     <div class="container-fluid col-lg-10 col-xl-9 col-xxl-8 py-4">
 
@@ -35,4 +36,7 @@ nav: home
     </div>
 
 </div>
+
+{% include pk/embed-reel.html %}
+
 {% include pk/bottom-action.html %}
