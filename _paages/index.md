@@ -6,7 +6,7 @@ nav: home
 
 {% include pk/home-carousel.html %}
 {% assign about_dir = "/assets/images/about" | relative_url %}
-
+{% assign schools_dir = "/assets/images/schools" | relative_url %}
 
 <div class="container-md p-md-4">
     <div class="container-fluid col-lg-10 col-xl-9 col-xxl-8 py-4">
@@ -38,5 +38,53 @@ nav: home
 </div>
 
 {% include pk/embed-reel.html %}
+
+{% include pk/mv.html %}
+
+<div class="container-fluid text-bg-dark">
+
+    <div class="p-3 p-md-4 d-flex justify-content-lg-center">
+        <h1 class="display-4 fw-bold mb-0">
+            Our Five Schools
+        </h1>
+        <a class="text-decoration-none ms-lg-5 d-inline-flex align-self-center" href="/schools">
+            <button class="btn btn-outline-light btn-lg">Learn More →</button>
+        </a>
+    </div>
+
+
+    <div class="row row-cols-1 row-cols-md-5 text-center" id="school-list">
+        <div class="col bg-red py-3">
+            <h2 class="fs-1 mb-3">Sri Petaling</h2>
+            <div class="school-picture d-flex align-items-stretch">
+                <img src="{{schools_dir}}/sri-petaling.jpeg" class="d-block h-100 my-auto" alt="...">
+            </div>
+        </div>
+        <div class="col bg-blue py-3">
+            <h2 class="fs-1 mb-3">Salak South Garden</h2>
+            <div class="school-picture d-flex align-items-stretch">
+                <img src="{{schools_dir}}/k45-edited-wires.jpeg" class="d-block h-100 my-auto" alt="...">
+            </div>
+        </div>
+        <div class="col bg-red py-3">
+            <h2 class="fs-1 mb-3">Bukit Jalil</h2>
+            <div class="school-picture d-flex align-items-stretch">
+                <img src="{{schools_dir}}/jalil.jpeg" class="d-block h-100 my-auto" alt="...">
+            </div>
+        </div>
+        <div class="col bg-blue py-3">
+            <h2 class="fs-1 mb-3">Puchong Utama</h2>
+            <div class="school-picture d-flex align-items-stretch">
+                <img src="{{schools_dir}}/puchong.jpg" class="d-block h-100 my-auto" alt="...">
+            </div>
+        </div>
+        <div class="col bg-red py-3">
+            <h2 class="fs-1 mb-3">Parklane OUG</h2>
+            <div class="school-picture d-flex align-items-stretch">
+                <img src="{{schools_dir}}/parklane.jpg" class="d-block h-100 my-auto" alt="...">
+            </div>
+        </div>
+    </div>
+</div>
 
 {% include pk/bottom-action.html %}

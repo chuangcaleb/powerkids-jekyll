@@ -3,7 +3,7 @@ layout: default
 nav: register
 ---
 
-<div class="container-fluid my-4 my-xl-5">
+<div class="container-fluid my-4">
     <div class="col-xl-10 mx-auto row row-cols-1 row-cols-lg-2 g-4">
 
         <div class="col p-md-5 d-flex align-items-center">
