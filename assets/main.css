@@ -294,6 +294,10 @@ a.nav-link:hover { text-decoration: none; }
 
 .bg-blue { background-color: #5757d9; }
 
+.bg-red-l { background-color: #ff7c7c; }
+
+.bg-blue-l { background-color: #7c7cff; }
+
 .bg-yellow { background-color: #ffff7c; }
 
 .color-facebook { color: #1877f2; }
@@ -330,9 +334,9 @@ a.active-nav, a.active-nav:hover, .underline { text-decoration: underline; text-
 
 .site-footer .nav-item:first-child .nav-link { padding-top: 0px; }
 
-.our-team-divider { position: relative; height: 70px; background-color: #212529; }
+#our-team-divider { position: relative; height: 70px; background-color: #212529; }
 
-.our-team-divider::before { content: ""; position: absolute; bottom: 0; width: 0; height: 0; border-style: solid; border-width: 50px 150px 0 150px; border-color: #0d6efd transparent transparent transparent; left: 50%; transform: translateX(-50%) translateY(-70%); }
+#our-team-divider::before { content: ""; position: absolute; bottom: 0; width: 0; height: 0; border-style: solid; border-width: 50px 150px 0 150px; border-color: #0d6efd transparent transparent transparent; left: 50%; transform: translateX(-50%) translateY(-70%); }
 
 .phone-numbers li a { color: white; }
 
