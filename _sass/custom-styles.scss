@@ -2,60 +2,60 @@
 
 // Fade on hover
 .hover-fade {
-	&:hover {
-		opacity: 0.8s;
-		cursor: pointer; // For MacOS where cursor becomes selection over text
-	}
-	transition-duration: 0.6s;
+  &:hover {
+    opacity: 0.8s;
+    cursor: pointer; // For MacOS where cursor becomes selection over text
+  }
+  transition-duration: 0.6s;
 }
 // Hover shadow
 .hover-shadow {
-	// transition: transform 0.5s, box-shadow 0.5s;
-	transition-duration: 0.4s;
-	&:hover {
-		opacity: 0.7;
-		// transform: scale(1.001) perspective(0px);
-		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
-	}
+  // transition: transform 0.5s, box-shadow 0.5s;
+  transition-duration: 0.4s;
+  &:hover {
+    opacity: 0.7;
+    // transform: scale(1.001) perspective(0px);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  }
 }
 
 // Current nav item -> Underline
 a.active-nav,
 a.active-nav:hover,
 .underline {
-	text-decoration: underline;
-	text-underline-offset: 5px;
+  text-decoration: underline;
+  text-underline-offset: 5px;
 }
 
 // Carousel height
 #home-carousel .carousel-item img {
-	height: 47vw;
+  height: 47vw;
 }
 #fb-embeds .col {
-	margin-left: auto !important;
-	margin-right: auto !important;
-	&>.fb-post{
-		display:flex !important;
-		&>span {
-		margin-left: auto !important;
-		margin-right: auto !important;
-	}
-		iframe{
-			background-color: white;
-		}
-	}
+  margin-left: auto !important;
+  margin-right: auto !important;
+  & > .fb-post {
+    display: flex !important;
+    & > span {
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+    iframe {
+      background-color: white;
+    }
+  }
 }
 
 // Small dev -> small logo .ml
 @media (max-width: 767.98px) {
-	.navbar-brand {
-		margin-left: 1rem;
-	}
+  .navbar-brand {
+    margin-left: 1rem;
+  }
 }
 
 // Footer, first nav-item -> remove padding-top
 .site-footer .nav-item:first-child .nav-link {
-	padding-top: 0px;
+  padding-top: 0px;
 }
 
 // .mission-vision-divider {
@@ -75,37 +75,37 @@ a.active-nav:hover,
 // 		rgb(33, 37, 41);
 // }
 
-.our-team-divider {
-	position: relative;
-	height: 70px;
-	background-color: rgb(33, 37, 41);
+#our-team-divider {
+  position: relative;
+  height: 70px;
+  background-color: rgb(33, 37, 41);
 }
 
-.our-team-divider::before {
-	content: "";
-	position: absolute;
-	bottom: 0;
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 50px 150px 0 150px;
-	border-color: rgb(13, 110, 253) transparent transparent transparent;
-	left: 50%;
-	transform: translateX(-50%) translateY(-70%);
+#our-team-divider::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 50px 150px 0 150px;
+  border-color: rgb(13, 110, 253) transparent transparent transparent;
+  left: 50%;
+  transform: translateX(-50%) translateY(-70%);
 }
 
 // Numbers in Schools -> proper color
 .phone-numbers li {
-	a {
-		color: white;
-		// text-decoration: none;
-		&:hover {
-			color: #334358;
-		}
-	}
-	// background-color: rgb(33, 37, 41);
-	// display: inline-block;
-	// padding: 2px 10px 2px 10px;
-	// margin-bottom: 0.5rem;
-	// border-radius: 5rem;
+  a {
+    color: white;
+    // text-decoration: none;
+    &:hover {
+      color: #334358;
+    }
+  }
+  // background-color: rgb(33, 37, 41);
+  // display: inline-block;
+  // padding: 2px 10px 2px 10px;
+  // margin-bottom: 0.5rem;
+  // border-radius: 5rem;
 }

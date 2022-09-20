@@ -3,8 +3,8 @@ layout: default
 nav: register
 ---
 
-<div class="container-fluid my-4">
-    <div class="col-xl-10 mx-auto row row-cols-1 row-cols-lg-2 g-4">
+<div class="container-md my-4">
+    <div class="row row-cols-1 row-cols-lg-2 g-4">
 
         <div class="col p-md-5 d-flex align-items-center">
             <div class="register-body mx-auto">
@@ -34,6 +34,7 @@ nav: register
         </div>
 
     </div>
+
 </div>
 
 <div class="container-md py-4">
@@ -42,7 +43,7 @@ nav: register
         <table class="align-middle">
             <thead>
                 {% for item in site.data.fees.headers %}
-                    <th class="bg-red" scope="col">
+                    <th class="bg-red-l" scope="col">
                         {{item}}
                     </th>
                 {% endfor %}
@@ -71,7 +72,7 @@ nav: register
         <table class="align-middle">
             <thead>
                 {% for item in site.data.fees-optional.headers %}
-                    <th class="bg-blue" scope="col">
+                    <th class="bg-blue-l" scope="col">
                         {{item}}
                     </th>
                 {% endfor %}

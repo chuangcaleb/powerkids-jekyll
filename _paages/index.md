@@ -9,14 +9,14 @@ nav: home
 {% assign schools_dir = "/assets/images/schools" | relative_url %}
 
 <div class="container-md p-md-4">
-    <div class="container-fluid col-lg-10 col-xl-9 col-xxl-8 py-4">
+    <div class="col-lg-10 col-xl-9 py-4 mx-auto">
 
         <h1 class="display-3 fw-bold mb-4">
             Welcome to
             {% include pk/powerkids.html %}!
         </h1>
 
-        <div class="jumbo-body mb-4 lead">
+        <div class="jumbo-body mb-4 lead fs-4">
             <p>
                 {% include pk/powerkids.html %}
                 was founded in 2001, based on the Fungates curriculum. We empower your little child’s early education by injecting play and care to stimulate your little one’s learning.
@@ -85,6 +85,7 @@ nav: home
             </div>
         </div>
     </div>
+
 </div>
 
 {% include pk/bottom-action.html %}

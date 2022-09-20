@@ -6,9 +6,9 @@ nav: about
 {% assign about_dir = "/assets/images/about" | relative_url %}
 
 <div class="p-4 bg-light">
-    <div class="container py-3 col-md-9 col-xl-7">
+    <div class="container py-3 col-md-10 col-xl-8">
         <h1 class="display-4 fw-bold text-center mb-4">About</h1>
-        <div class="mb-4 lead">
+        <div class="mb-4 lead fs-4">
             <p>
                 {% include pk/powerkids.html %}
                 was founded in 2001, based on the Fungates curriculum. We empower your little child’s early education by injecting play and care to stimulate your little one’s learning.
@@ -25,22 +25,22 @@ nav: about
 
 {% include pk/mv.html %}
 
-<div class="our-team p-4 bg-primary text-bg-primary text-center">
-    <div class="container-fluid py-md-3 col-md-10 g-0 mb-4">
-        <h2 class="display-3 fw-bold lh-1 my-4">Our Team</h2>
-        <div class="our-team-body lead">
+<div id="our-team" class="p-4 bg-primary text-bg-primary text-center">
+    <div class="container-md py-md-3 col-md-10 g-0 mb-4">
+        <h2 class="display-3 fw-bold lh-1 my-5">Our Team</h2>
+        <div id="our-team-body" class="lead fs-4">
             <p>At PowerKids, we have trained, qualified teachers who are passionate and dynamic. Their joy comes from seeing our little learners light up as they make new friends or learn new letters, words or concepts.
             </p>
             <p>Every class teacher is qualified in Early Childhood Education and further up-graded with latest FunGates teaching practices on yearly basis. Our teaching team is up-to-date on trainings by KSPK Ministry of Education of Malaysia for guru-guru pra-sekolah.</p>
             <br>
-            <p>“Children’s First” is our basis to all our decisions in managing children entrusted to our care.</p>
+            <p style="font-weight:600"><span style="text-decoration:underline">“Children First”</span> is our basis to all our decisions in managing children entrusted to our care.</p>
         </div>
     </div>
 </div>
 
-<div class="our-team-divider"></div>
+<div id="our-team-divider"></div>
 
-<div class="school-teams bg-dark text-center pb-4">
+<div id="school-teams" class="bg-dark text-center pb-4">
 
     <div class="container py-4">
 
