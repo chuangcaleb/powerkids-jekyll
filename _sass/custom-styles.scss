@@ -100,7 +100,7 @@ a.active-nav:hover,
     color: white;
     // text-decoration: none;
     &:hover {
-      color: #334358;
+      color: #48e7e7;
     }
   }
   // background-color: rgb(33, 37, 41);
@@ -110,6 +110,8 @@ a.active-nav:hover,
   // border-radius: 5rem;
 }
 
-// .school-picture {
-//   max-height: 40vh;
-// }
+.school-picture {
+  @media (min-width: 767.98px) {
+    max-width: 60vw;
+  }
+}
