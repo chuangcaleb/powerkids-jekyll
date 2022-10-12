@@ -340,6 +340,8 @@ a.active-nav, a.active-nav:hover, .underline { text-decoration: underline; text-
 
 .phone-numbers li a { color: white; }
 
-.phone-numbers li a:hover { color: #334358; }
+.phone-numbers li a:hover { color: #48e7e7; }
+
+@media (min-width: 767.98px) { .school-picture { max-width: 60vw; } }
 
 /*# sourceMappingURL=main.css.map */
