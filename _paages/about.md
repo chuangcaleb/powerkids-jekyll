@@ -50,7 +50,7 @@ nav: about
                 <div class="row row-cols-1 row-cols-md-2 g-3 g-lg-4 mx-auto">
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src="{{about_dir}}/s2-age-4.jpeg" class="card-img-top" alt="...">
+                            <img src="{{about_dir}}/s2-age4.JPG" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Age 4 Teachers</h5>
                             </div>
@@ -58,7 +58,7 @@ nav: about
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src="{{about_dir}}/s2-age-5.jpeg" class="card-img-top" alt="...">
+                            <img src="{{about_dir}}/s2-age5.JPG" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Age 5 Teachers</h5>
                             </div>
@@ -66,7 +66,7 @@ nav: about
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src="{{about_dir}}/s2-age-6.jpeg" class="card-img-top" alt="...">
+                            <img src="{{about_dir}}/s2-age6.JPG" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Age 6 Teachers</h5>
                             </div>
@@ -74,7 +74,7 @@ nav: about
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src="{{about_dir}}/s2-admin.jpeg" class="card-img-top" alt="...">
+                            <img src="{{about_dir}}/s2-support.JPG" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Administration Team</h5>
                             </div>
