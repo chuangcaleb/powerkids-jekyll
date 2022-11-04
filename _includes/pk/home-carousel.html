@@ -12,7 +12,7 @@
 >
   {% assign banners_dir = "/assets/images/banners" | relative_url %}
 
-  <!-- <div class="carousel-indicators">
+  <div class="carousel-indicators">
     <button
       type="button"
       data-bs-target="#home-carousel"
@@ -21,7 +21,8 @@
       aria-current="true"
       aria-label="Slide 1"
     ></button>
-  </div> -->
+    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+  </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img
@@ -30,9 +31,16 @@
         alt="..."
       />
     </div>
+    <div class="carousel-item">
+      <img
+        src="{{banners_dir}}/grad-2022.jpg"
+        class="d-block w-100"
+        alt="..."
+      />
+    </div>
   </div>
 
-  <!-- <button
+  <button
     class="carousel-control-prev"
     type="button"
     data-bs-target="#home-carousel"
@@ -47,7 +55,7 @@
     data-bs-slide="next"
   >
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-  </button> -->
+  </button>
 </div>
 
 <script src="{{ "/assets/js/countdown.js" | relative_url }}"></script>
