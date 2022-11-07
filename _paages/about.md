@@ -26,11 +26,12 @@ nav: about
 {% include pk/mv.html %}
 
 <div id="our-team" class="p-4 bg-primary text-bg-primary text-center">
-    <div class="container-md py-md-3 col-md-10 g-0 mb-4">
+    <div class="container-md py-md-3 col-md-8 g-0 mb-4">
         <h2 class="display-3 fw-bold lh-1 my-5">Our Team</h2>
-        <div id="our-team-body" class="lead fs-4">
+        <div id="our-team-body" class="lead">
             <p>At PowerKids, we have trained, qualified teachers who are passionate and dynamic. Their joy comes from seeing our little learners light up as they make new friends or learn new letters, words or concepts.
             </p>
+            <br>
             <p>Every class teacher is qualified in Early Childhood Education and further up-graded with latest FunGates teaching practices on yearly basis. Our teaching team is up-to-date on trainings by KSPK Ministry of Education of Malaysia for guru-guru pra-sekolah.</p>
             <br>
             <p style="font-weight:600"><span style="text-decoration:underline">“Children First”</span> is our basis to all our decisions in managing children entrusted to our care.</p>
@@ -50,9 +51,9 @@ nav: about
                 <div class="row row-cols-1 row-cols-md-2 g-3 g-lg-4 mx-auto">
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src="{{about_dir}}/s2-age4.JPG" class="card-img-top" alt="...">
+                            <img src="{{about_dir}}/s2-age6.JPG" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Age 4 Teachers</h5>
+                                <h5 class="card-title">Age 6 Teachers</h5>
                             </div>
                         </div>
                     </div>
@@ -66,9 +67,9 @@ nav: about
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src="{{about_dir}}/s2-age6.JPG" class="card-img-top" alt="...">
+                            <img src="{{about_dir}}/s2-age4.JPG" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Age 6 Teachers</h5>
+                                <h5 class="card-title">Age 4 Teachers</h5>
                             </div>
                         </div>
                     </div>
